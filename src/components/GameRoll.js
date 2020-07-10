@@ -69,7 +69,7 @@ export default () => (
       query GameRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "game-info" } } }
+          filter: { frontmatter: { templateKey: { eq: "past-game" } } }
         ) {
           edges {
             node {

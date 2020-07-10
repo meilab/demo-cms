@@ -6,7 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const GameInfoTemplate = ({
+export const PastGameInfoTemplate = ({
   content,
   contentComponent,
   description,
@@ -46,7 +46,7 @@ export const GameInfoTemplate = ({
   );
 };
 
-GameInfoTemplate.propTypes = {
+PastGameInfoTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -54,12 +54,12 @@ GameInfoTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const GameInfo = ({ data }) => {
+const PastGameInfo = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <GameInfoTemplate
+      <PastGameInfoTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -79,16 +79,16 @@ const GameInfo = ({ data }) => {
   );
 };
 
-GameInfo.propTypes = {
+PastGameInfo.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default GameInfo;
+export default PastGameInfo;
 
 export const pageQuery = graphql`
-  query GameInfoByID($id: String!) {
+  query PastGameInfoByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
