@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Wakanda JavaScript Developer Meetup
+title: Wakanda Yoga Game
 mainImage:
   image: /img/teemu-paananen-376238-unsplash.jpg
   imageAlt: Wakanda JavaScript developer presenting at a game.

@@ -47,13 +47,13 @@ export const PastGamesPageTemplate = ({
   };
   
   return (
-    <article className="pastMeetups">
-      <div className="container  pastMeetups-container">
-        <h1 className="pastMeetups-title">{title}</h1>
+    <article className="pastGames">
+      <div className="container  pastGames-container">
+        <h1 className="pastGames-title">{title}</h1>
         {bodyIsMarkdown ? (
-          <ReactMarkdown className="pastMeetups-description" source={content} />
+          <ReactMarkdown className="pastGames-description" source={content} />
         ) : (
-          <HTMLContent className="pastMeetups-description" content={content} />
+          <HTMLContent className="pastGames-description" content={content} />
         )}
         <div className="level">
           <div className="level-left">
@@ -86,7 +86,7 @@ export const PastGamesPageTemplate = ({
           filteredData.map((game, index) => (
             <GameMetaInfoTemplate
               key={index}
-              className="pastMeetups-game"
+              className="pastGames-game"
               game={game.node.frontmatter}
               slug={game.node.fields.slug}
             />

@@ -234,7 +234,7 @@ collections:
               widget: "markdown",
             }
           - {
-              label: "Meetup Organizers",
+              label: "Game Organizers",
               name: "organizers",
               widget: "object",
               fields:
