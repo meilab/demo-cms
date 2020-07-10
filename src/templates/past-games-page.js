@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component, Fragment, useState, useEffect }  from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
@@ -16,6 +16,36 @@ export const PastGamesPageTemplate = ({
   games = null,
   bodyIsMarkdown = false,
 }) => {
+  const emptyQuery = "";
+  const [filteredData, setFilteredData] = useState([]);
+  const [query, setQuery] = useState(emptyQuery);
+
+  useEffect(() => {
+    setFilteredData(games);
+  }, []);
+
+  const handleInputChange = (event) => {
+    const newQuery = event.target.value;
+    // this is how we get all of our games
+    // return all filtered games
+    const filteredData =
+      newQuery === emptyQuery
+        ? games
+        : games.filter((game) => {
+            // destructure data from game frontmatter
+            const { title } = game.node.frontmatter;
+            return (
+              // standardize data with .toLowerCase()
+              // return true if the title
+              // contains the newQuery string
+              title.toLowerCase().includes(newQuery.toLowerCase())
+            );
+          });
+    // update state according to the latest newQuery and results
+    setFilteredData(filteredData);
+    setQuery(newQuery);
+  };
+  
   return (
     <article className="pastMeetups">
       <div className="container  pastMeetups-container">
@@ -25,8 +55,35 @@ export const PastGamesPageTemplate = ({
         ) : (
           <HTMLContent className="pastMeetups-description" content={content} />
         )}
-        {games &&
-          games.map((game, index) => (
+        <div className="level">
+          <div className="level-left">
+            <div className="level-item">
+              <p className="subtitle is-5">
+                <strong>{filteredData.length}</strong> 比赛
+              </p>
+            </div>
+            <div className="level-item">
+              <div className="field has-addons">
+                <p className="control">
+                  <input
+                    className="input"
+                    type="text"
+                    aria-label="Search"
+                    placeholder="输入姓名或编号"
+                    onChange={handleInputChange}
+                  />
+                </p>
+                <p className="control">
+                  <button className="button">
+                    搜索
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {filteredData &&
+          filteredData.map((game, index) => (
             <GameMetaInfoTemplate
               key={index}
               className="pastMeetups-game"
