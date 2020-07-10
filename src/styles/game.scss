@@ -32,12 +32,12 @@
     margin: 0 auto 20px;
   }
 
-  &-meetup {
+  &-game {
     margin: 40px 0;
   }
 }
 
-.meetup {
+.game {
   border: 3px solid rgba($highlight, 0.2);
   padding: 10px;
   @include medium-font();
