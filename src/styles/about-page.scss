@@ -76,6 +76,7 @@
   }
 
   a {
+    color: lightgrey;
     @include link-border();
   }
 }

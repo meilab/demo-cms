@@ -58,8 +58,11 @@ export const AboutPageTemplate = (props) => {
           <ul className="organizers-list">
             {page.frontmatter.organizers.gallery.map((galleryImage, index) => (
               <li key={index} className="organizers-listItem">
-                <div style={{width:"300px", height: "auto"}} className="organizers-listItemImage">
-                  <PreviewCompatibleImage  imageInfo={galleryImage} />
+                <div
+                  style={{ width: "300px", height: "auto" }}
+                  className="organizers-listItemImage"
+                >
+                  <PreviewCompatibleImage imageInfo={galleryImage} />
                 </div>
                 {/* <img
                   className="organizers-listItemImage"
