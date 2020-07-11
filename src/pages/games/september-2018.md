@@ -3,7 +3,7 @@ templateKey: past-game
 title: 健身瑜伽
 date: 2018-09-11T22:00:00.000Z
 presenters:
-  - image: /img/edward-cisneros-415601-unsplash.jpg
+  - image: /img/flavor_wheel.jpg
     links:
       - linkText: 点我走起
         linkURL: "https://google.com/"
@@ -11,7 +11,7 @@ presenters:
     presentationTitle: 项目一简介
     text: >-
       瑜伽武术是瑜伽和武术的精髓相互融合动中有静，柔中带刚。适合所有人进行练习，能够强身健体，增强免疫力。
-  - image: /img/marius-ciocirlan-398931-unsplash.jpg
+  - image: /img/chemex.jpg
     links:
       - linkText: 联系我
         linkURL: "https://baidu.com/"
