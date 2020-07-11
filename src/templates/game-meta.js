@@ -20,11 +20,11 @@ class GameMetaInfoTemplate extends Component {
         </h2>
         <div className="game-meta">
           <p className="game-metaField  game-metaField--date">
-            <span className="game-label">Date:</span>{" "}
+            <span className="game-label">日期:</span>{" "}
             {this.props.game.formattedDate}
           </p>
           <p className="game-metaField  game-metaField--location">
-            <span className="game-label">Location:</span>{" "}
+            <span className="game-label">地点:</span>{" "}
             {this.props.game.location.name}
           </p>
         </div>

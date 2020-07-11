@@ -1,35 +1,27 @@
 ---
 templateKey: past-game
-title: September 2018
+title: 健身瑜伽
 date: 2018-09-11T22:00:00.000Z
 presenters:
   - image: /img/edward-cisneros-415601-unsplash.jpg
     links:
-      - linkText: Async/Await
-        linkURL: 'https://google.com/'
-      - linkText: Promises
-        linkURL: 'https://google.com/'
-    name: Brittany Vonn
-    presentationTitle: 'No sugar please: a tearing down of abstractions'
+      - linkText: 点我走起
+        linkURL: "https://google.com/"
+    name: 瑜伽项目一
+    presentationTitle: 项目一简介
     text: >-
-      To demistify one of JS' hotest bits of syntax sugar and the familiar
-      Promise, Brittany will break down the mechanics of both async patterns by
-      building his own naive variations of those language features.
+      瑜伽武术是瑜伽和武术的精髓相互融合动中有静，柔中带刚。适合所有人进行练习，能够强身健体，增强免疫力。
   - image: /img/marius-ciocirlan-398931-unsplash.jpg
     links:
-      - linkText: React Native
-        linkURL: 'https://facebook.github.io/react-native/'
-    name: Brian Kardashian
-    presentationTitle: React & React Native
+      - linkText: 联系我
+        linkURL: "https://baidu.com/"
+    name: 瑜伽项目二
+    presentationTitle: 项目二简介
     text: >-
-      The folks at Turbulent have been working hard using React and React-Native
-      to bring quality, cross platform JS products to market. Today, they will
-      show us the patterns, structures and challenges of building large scale
-      cross platform apps.
+      更多的了解瑜伽项目二.
 location:
   mapsLatitude: 64.843779
-  mapsLink: 'https://goo.gl/maps/Rm6ihxVrZGK2'
+  mapsLink: "https://goo.gl/maps/Rm6ihxVrZGK2"
   mapsLongitude: -147.718189
-  name: Fairbanks Ice Museum
+  name: 朱雀体育场
 ---
-

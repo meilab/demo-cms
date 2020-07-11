@@ -4,28 +4,33 @@ name: 韩梅梅
 number: 1131
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/marius-ciocirlan-398931-unsplash.jpg
 description: 陕西省宝鸡市人，热爱运动.
 tags:
   - brewing
   - chemex
 ---
 
-![chemex](/img/chemex.jpg)
+![](/img/marius-ciocirlan-398931-unsplash.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+韩梅梅是一位著名的健身教练，瑜伽大师，演说家，他指导过的明星有 Peta Wilson、Donna Karan 等，指导过的 UFC 选手有 Alberto Crane、Jorge Rivera、Andrei Arlovs、Elvis Sinosic 等。他的健身体系 Circular Strength Training 已经成为美国陆军的正式训练项目。他还是一位作家，演说家，Mensa（一个国际组织）成员，并且积极投身于预防儿童肥胖问题。
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+## 早期生活
 
-## The little secrets of Chemex brewing
+于 1969 年出生于美国宾夕法尼亚州。他的祖先生活在德国巴伐利亚 Passau 地区 Sonnon 镇，祖父辈移居美国。小时候，近视和 Thygeson 症曾使他成为盲人，少年时代因软骨病成为了跛子，还有语言障碍和诵读困难症。Sonnon 却把这些灾难视为上帝送给自己的礼物，这些经历使得他能够“以独特的方式观察、体验、思考这个世界。”
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+## 训练
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+Sonnon 把 Clubbell（棒球棍铃，训练方法见本人前文《视频整理：民族体育、综合训练与未来体育：棒球棍铃，艺术体操棒，大头棒铃等》）引入了力量训练。2007 年，他成为了国家健身名人堂与个人训练名人堂的候选人。他是桑博式摔跤与俄国 martial arts 世界的名人。
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+在桑博式摔跤与 MMA 世界里，他以改革了一种“lower-half positional fighting approach”（下肢攻击方式）而知名。他将该体系由桑博式摔跤引入了 MMA。他倡导一种新的格斗方式，他称之为 Saddle。
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+## 大事记
+
+- 1993 到 1995 年，任美国桑博式摔跤协会的国家队教练。
+
+- 1993 年，获世界大学生运动会桑博式摔跤比赛银牌。
+
+- 1994 年，获泛美桑博式摔跤锦标赛冠军。
+
+- 1995 年，获美国全国桑博式摔跤大赛冠军。

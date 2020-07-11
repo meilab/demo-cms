@@ -1,31 +1,27 @@
 ---
 templateKey: past-game
-title: October 2018
+title: 瑜伽武术融合冠军赛
 date: 2018-10-09T23:00:00.000Z
 presenters:
   - image: /img/michael-dam-258165-unsplash.jpg
     links:
-      - linkText: Authenticated Systems Workshop (Github)
-        linkURL: 'https://google.com/'
-    name: Janet Morisette
-    presentationTitle: Authenticated Systems Workshop
+      - linkText: 点我走起
+        linkURL: "https://google.com/"
+    name: 瑜伽项目一
+    presentationTitle: 项目一简介
     text: >-
-      In this talk we will go over a few ways you can implement authentication
-      (including offline authentication strategies) and then dive into some code
-      for both a server and a client which you can adapt to suit your own app.
+      瑜伽武术是瑜伽和武术的精髓相互融合动中有静，柔中带刚。适合所有人进行练习，能够强身健体，增强免疫力。
   - image: /img/humphrey-muleba-795250-unsplash.jpg
     links:
-      - linkText: Gatsby Repo
-        linkURL: 'https://google.com/'
-    name: Sarah Jones
-    presentationTitle: Gatsby!
+      - linkText: 联系我
+        linkURL: "https://baidu.com/"
+    name: 瑜伽项目二
+    presentationTitle: 项目二简介
     text: >-
-      Get to know more about the basics of using Gatsby with Sarah. She is going
-      to use Nike's website as an example.
+      更多的了解瑜伽项目二.
 location:
   mapsLatitude: 64.843779
-  mapsLink: 'https://goo.gl/maps/Rm6ihxVrZGK2'
+  mapsLink: "https://goo.gl/maps/Rm6ihxVrZGK2"
   mapsLongitude: -147.718189
-  name: Fairbanks Ice Museum
+  name: 朱雀体育场
 ---
-

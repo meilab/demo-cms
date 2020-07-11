@@ -4,32 +4,33 @@ name: 张杰
 number: 1130
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/ramy-kabalan-796973-unsplash.jpg
 description: 陕西省西安市人，热爱运动.
 tags:
   - flavor
   - tasting
 ---
 
-![flavor wheel](/img/flavor_wheel.jpg)
+![](/img/ramy-kabalan-796973-unsplash.jpg)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+张杰是一位著名的健身教练，瑜伽大师，演说家，他指导过的明星有 Peta Wilson、Donna Karan 等，指导过的 UFC 选手有 Alberto Crane、Jorge Rivera、Andrei Arlovs、Elvis Sinosic 等。他的健身体系 Circular Strength Training 已经成为美国陆军的正式训练项目。他还是一位作家，演说家，Mensa（一个国际组织）成员，并且积极投身于预防儿童肥胖问题。
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+## 早期生活
 
-## What the updates mean to you
+于 1969 年出生于美国宾夕法尼亚州。他的祖先生活在德国巴伐利亚 Passau 地区 Sonnon 镇，祖父辈移居美国。小时候，近视和 Thygeson 症曾使他成为盲人，少年时代因软骨病成为了跛子，还有语言障碍和诵读困难症。Sonnon 却把这些灾难视为上帝送给自己的礼物，这些经历使得他能够“以独特的方式观察、体验、思考这个世界。”
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+## 训练
 
-- producers
-- roasters
-- importers/exporters
-- retailers
-- manufacturers
-- baristas
+Sonnon 把 Clubbell（棒球棍铃，训练方法见本人前文《视频整理：民族体育、综合训练与未来体育：棒球棍铃，艺术体操棒，大头棒铃等》）引入了力量训练。2007 年，他成为了国家健身名人堂与个人训练名人堂的候选人。他是桑博式摔跤与俄国 martial arts 世界的名人。
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+在桑博式摔跤与 MMA 世界里，他以改革了一种“lower-half positional fighting approach”（下肢攻击方式）而知名。他将该体系由桑博式摔跤引入了 MMA。他倡导一种新的格斗方式，他称之为 Saddle。
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+## 大事记
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+- 1993 到 1995 年，任美国桑博式摔跤协会的国家队教练。
+
+- 1993 年，获世界大学生运动会桑博式摔跤比赛银牌。
+
+- 1994 年，获泛美桑博式摔跤锦标赛冠军。
+
+- 1995 年，获美国全国桑博式摔跤大赛冠军。

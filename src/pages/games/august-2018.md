@@ -1,29 +1,30 @@
 ---
 templateKey: past-game
-title: August 2018
+title: 瑜伽陕西大赛
 date: 2018-08-14T23:00:00.000Z
 presenters:
-  - image: /img/ramy-kabalan-796973-unsplash.jpg
-    name: Fred Champ
-    presentationTitle: Network optimizations 101
-    text: >+
-      If you have an application that requires network requests to run, you
-      might want to come watch this presentation. We'll cover congestion
-      control, caching, batching and a couple advanced strategies to make your
-      application faster all while saving on infrastructure costs.
-
-  - image: /img/marius-ciocirlan-398931-unsplash.jpg
-    name: Ben Wilson
-    presentationTitle: Memoizing functions
+  - image: /img/flavor_wheel.jpg
+    links:
+      - linkText: 点我走起
+        linkURL: "https://google.com/"
+    name: 瑜伽项目一
+    presentationTitle: 项目一简介
     text: >-
-      Ben will tell us all about the power of functional programming,
-      specifically memoization and how it can help speed up frequently used side
-      effect-less functions.
+      瑜伽武术是瑜伽和武术的精髓相互融合动中有静，柔中带刚。适合所有人进行练习，能够强身健体，增强免疫力。
+
+  - image: /img/chemex.jpg
+    links:
+      - linkText: 联系我
+        linkURL: "https://baidu.com/"
+    name: 瑜伽项目二
+    presentationTitle: 项目二简介
+    text: >-
+      更多的了解瑜伽项目二.
 location:
   mapsLatitude: 64.843779
   mapsLink: "https://goo.gl/maps/LLgicn3zGuy"
   mapsLongitude: -147.718189
-  name: Fairbanks Ice Museum
+  name: 朱雀体育场
 ---
 
 ![flavor wheel](/img/flavor_wheel.jpg)

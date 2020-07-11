@@ -4,6 +4,7 @@ name: 高烦
 number: 1144
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
+featuredimage: /img/lucas-sankey-378674-unsplash.jpg
 description: 山东泰安人，热爱运动
 tags:
   - jamaica
@@ -12,22 +13,26 @@ tags:
   - tasting
 ---
 
-We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
+![](/img/lucas-sankey-378674-unsplash.jpg)
 
-Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.
+高烦是一位著名的健身教练，瑜伽大师，演说家，他指导过的明星有 Peta Wilson、Donna Karan 等，指导过的 UFC 选手有 Alberto Crane、Jorge Rivera、Andrei Arlovs、Elvis Sinosic 等。他的健身体系 Circular Strength Training 已经成为美国陆军的正式训练项目。他还是一位作家，演说家，Mensa（一个国际组织）成员，并且积极投身于预防儿童肥胖问题。
 
-## A little history
+## 早期生活
 
-The Blue Mountains are considered by many to be a hiker's and camper's paradise. The traditional Blue Mountain trek is a 7-mile hike to the peak and consists of a 3,000-foot increase in elevation. Jamaicans prefer to reach the peak at sunrise, thus the 3–4 hour hike is usually undertaken in darkness. Since the sky is usually very clear in the mornings, Cuba can be seen in the distance.
+于 1969 年出生于美国宾夕法尼亚州。他的祖先生活在德国巴伐利亚 Passau 地区 Sonnon 镇，祖父辈移居美国。小时候，近视和 Thygeson 症曾使他成为盲人，少年时代因软骨病成为了跛子，还有语言障碍和诵读困难症。Sonnon 却把这些灾难视为上帝送给自己的礼物，这些经历使得他能够“以独特的方式观察、体验、思考这个世界。”
 
-> Some of the plants found on the Blue Mountain cannot be found anywhere else in the world and they are often of a dwarfed sort.
+## 训练
 
-This is mainly due to the cold climate which inhibits growth. The small coffee farming communities of Claverty Cottage and Hagley Gap are located near the peak.
+Sonnon 把 Clubbell（棒球棍铃，训练方法见本人前文《视频整理：民族体育、综合训练与未来体育：棒球棍铃，艺术体操棒，大头棒铃等》）引入了力量训练。2007 年，他成为了国家健身名人堂与个人训练名人堂的候选人。他是桑博式摔跤与俄国 martial arts 世界的名人。
 
-## What you need to know before trying
+在桑博式摔跤与 MMA 世界里，他以改革了一种“lower-half positional fighting approach”（下肢攻击方式）而知名。他将该体系由桑博式摔跤引入了 MMA。他倡导一种新的格斗方式，他称之为 Saddle。
 
-Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classification of coffee grown in the Blue Mountains of Jamaica. The best lots of Blue Mountain coffee are noted for their mild flavor and lack of bitterness. Over the past few decades, this coffee has developed a reputation that has made it one of the most expensive and sought-after coffees in the world. Over 80% of all Jamaican Blue Mountain Coffee is exported to Japan. In addition to its use for brewed coffee, the beans are the flavor base of Tia Maria coffee liqueur.
+## 大事记
 
-Jamaican Blue Mountain Coffee is a globally protected certification mark, meaning only coffee certified by the Coffee Industry Board of Jamaica can be labeled as such. It comes from a recognized growing region in the Blue Mountain region of Jamaica, and its cultivation is monitored by the Coffee Industry Board of Jamaica.
+- 1993 到 1995 年，任美国桑博式摔跤协会的国家队教练。
 
-The Blue Mountains are generally located between Kingston to the south and Port Antonio to the north. Rising 7,402 ft, they are some of the highest mountains in the Caribbean. The climate of the region is cool and misty with high rainfall. The soil is rich, with excellent drainage. This combination of climate and soil is considered ideal for coffee.
+- 1993 年，获世界大学生运动会桑博式摔跤比赛银牌。
+
+- 1994 年，获泛美桑博式摔跤锦标赛冠军。
+
+- 1995 年，获美国全国桑博式摔跤大赛冠军。

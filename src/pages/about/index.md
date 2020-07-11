@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Wakanda Yoga Game
+title: 陕西瑜伽协会
 mainImage:
   image: /img/teemu-paananen-376238-unsplash.jpg
   imageAlt: Wakanda JavaScript developer presenting at a game.
@@ -12,31 +12,30 @@ gallery:
   - image: /img/annie-spratt-608001-unsplash.jpg
     imageAlt: Wakanda developers working together at a table.
 developerGroups: |-
-  ## Other Wakanda Developer Groups
+  ## 兄弟协会
 
-  * [React & React Native Meetup](https://www.google.com)
-  * [Python Meetup](https://www.google.com)
-  * [Google Developer Meetup](https://www.google.com)
-  * [Vue.js Meetup](https://www.google.com)
-  * [Ruby Meetup](https://www.google.com)
+  * [陕西篮球协会](https://www.baidu.com)
+  * [陕西足球协会](https://www.baidu.com)
+  * [陕西羽毛球协会](https://www.baidu.com)
+  * [国家体育总局](https://www.baidu.com)
 organizers:
-  title: Group Organizers
+  title: 协会创始人
   gallery:
     - image: /img/organizer-1.jpg
-      imageAlt: Tom Cruise
-      name: Tom Cruise
+      imageAlt: 郭彪
+      name: 郭彪
     - image: /img/organizer-2.jpg
-      imageAlt: Tom Hanks
-      name: Tom Hanks
+      imageAlt: 郭彪
+      name: 郭彪
 seo:
-  browserTitle: About | JavaScript Wakanda
+  browserTitle: 简介 | 瑜伽协会
   description: >-
     JavaScript Wakanda is a game group that holds monthly games where
     JavaScript developers get together for presentations and to meet others in
     the community.
-  title: About | JS Wakanda
+  title: 简介 | 瑜伽协会
 ---
 
-## Sharing Ideas and Meeting Others
+## 与志同道合者练习瑜伽
 
-JS Wakanda is a user group run by volunteers. We meet in borrowed spaces, graciously provided by different companies and organisations. Our purpose is to provide a place where our members have a good time talking about programming, sharing their knowledge and meeting other passionate folks. We keep it friendly, inclusive and positive.
+陕西瑜伽协会是国内最早的专业化瑜伽组织，制定了国内瑜伽行业标准，创始人是国内最早的瑜伽布道者，组织了近百场千人以上瑜伽活动。我们的宗旨是帮助广大老百姓认识瑜伽，练习瑜伽。为瑜伽爱好者建立一个沟通练习的平台。

@@ -3,26 +3,24 @@ templateKey: index-page
 headerImage:
   image: /img/television.png
   imageAlt: JavaScript Wakanda
-title: Meet other JavaScript Developers in Wakanda
-upcomingGameHeading: Upcoming Game
+title: 遇到更多的瑜伽爱好者共同切磋共同成长
+upcomingGameHeading: 近期赛事
 noUpcomingGameText: Details to be announced.
 mapsNote: Clicking the pin opens Google Maps in a new tab.
 callToActions:
   firstCTA:
-    heading: Past Meetups
+    heading: 过往比赛
     linkType: internal
-    linkURL: /meetups
-    subHeading: Look at what topics were presented at past meetups.
+    linkURL: /pastGames
+    subHeading: 看看我们过往组织的比赛
   secondCTA:
-    heading: Volunteer to Present
+    heading: 志愿者报名
     linkType: external
-    linkURL: 'mailto:contact@js-wakanda.org'
-    subHeading: Want to present at an upcoming meetup? Contact us.
+    linkURL: "mailto:contact@sx-yoga.org"
+    subHeading: 希望成为下一个比赛的志愿者吗? 联系我们.
 seo:
-  browserTitle: JS Wakanda
+  browserTitle: 瑜伽
   description: >-
-    JavaScript meetup group in Wakanda where JavaScript developers get together
-    for presentations and to meet others in the community.
-  title: JavaScript Wakanda
+    陕西瑜伽协会负责组织押加比赛和其它相关活动.
+  title: 瑜伽
 ---
-

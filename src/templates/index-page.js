@@ -22,7 +22,10 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
       <section className="header">
         <div className="header-container  container">
           {home.headerImage && (
-            <div style={{width:"300px", height: "auto"}}  className="upcomingGame-presenterImage">
+            <div
+              style={{ width: "300px", height: "auto" }}
+              className="upcomingGame-presenterImage"
+            >
               <PreviewCompatibleImage imageInfo={home.headerImage} />
             </div>
           )}
@@ -51,8 +54,14 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                       className="upcomingGame-presenter"
                       key={presenter.text}
                     >
-                      <div style={{width:"300px", height: "auto"}}  className="upcomingGame-presenterImage">
-                        <PreviewCompatibleImage className="upcomingGame-presenterImage" imageInfo={presenter.image} />
+                      <div
+                        style={{ width: "300px", height: "auto" }}
+                        className="upcomingGame-presenterImage"
+                      >
+                        <PreviewCompatibleImage
+                          className="upcomingGame-presenterImage"
+                          imageInfo={presenter.image}
+                        />
                       </div>
                       <span className="upcomingGame-presenterName">
                         {presenter.name}
@@ -67,9 +76,9 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                   ))}
                 </div>
               )}
-              <p className="upcomingGame-mapNote">{home.mapsNote}</p>
+              {/* <p className="upcomingGame-mapNote">{home.mapsNote}</p>
               <div className="upcomingGame-mapWrapper">
-                {/* <Map
+                <Map
                   isMarkerShown
                   googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTxauB_VWpo0_8hWELlE3pN59uuHzxD-8&v=3.exp&libraries=geometry,drawing,places"
                   loadingElement={<div style={{ height: `100%` }} />}
@@ -78,8 +87,8 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                   link={upcomingGame.location.mapsLink}
                   latitude={latitude}
                   longitude={longitude}
-                /> */}
-              </div>
+                />
+              </div> */}
             </>
           ) : (
             <p className="upcomingGame-detail">{home.noUpcomingGameText}</p>
