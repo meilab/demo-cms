@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
 
@@ -10,6 +10,8 @@ import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
 import CustomLink from "../components/CustomLink";
 import "../styles/home.scss";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import BlogRoll from '../components/BlogRoll'
+import NewsRoll from '../components/NewsRoll'
 
 export const HomePageTemplate = ({ home, upcomingGame = null }) => {
   const presenters = upcomingGame && upcomingGame.presenters;
@@ -124,6 +126,32 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             </p>
           </div>
         </CustomLink>
+      </section>
+      <section className="news  section">
+        <div className="column is-12">
+          <h3 className="has-text-weight-semibold is-size-2">
+            新闻
+          </h3>
+          <NewsRoll />
+          <div className="column is-12 has-text-centered">
+            <Link className="btn" to="/news">
+              更多新闻
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className="news  section">
+        <div className="column is-12">
+          <h3 className="has-text-weight-semibold is-size-2">
+            我们的故事
+          </h3>
+          <BlogRoll />
+          <div className="column is-12 has-text-centered">
+            <Link className="btn" to="/blog">
+              更多故事
+            </Link>
+          </div>
+        </div>
       </section>
     </>
   );
