@@ -1,29 +1,38 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: 瑜伽与生活
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+description: 瑜伽是一种生活方式，让身心与大自然融合。
 tags:
-  - brewing
-  - chemex
+  - 瑜伽
+  - 生活
 ---
-![chemex](/img/chemex.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+![](/img/chemex.jpg)
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 
-## The little secrets of Chemex brewing
+## 承办比赛
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+第一件大事！第一件大事！！第一件大事！！！重要的事情先提醒三遍。就是省篮协精心打造的“丝路”杯综合篮球赛事。
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+竞技赛事一般分为赛会和联赛两种，顾名思义，综合性赛事就是赛会和联赛一起办。赛会制的比赛，省篮协要主办国际性大赛。说到在陕西办国际赛事，并不稀奇，但以前的所谓国际赛事都是一些拼凑起来的所谓外国球队，来路不明。省篮协筹办的国际比赛，强调正规军对阵正规军。去年已经搞了非洲冠军安哥拉队与国内 CBA 青岛双星队在陕西的几站比赛，效果非常好。
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+- 玩得开心
+- 练得顺心
+- 顺利保障
+- 安全第一
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+![](/img/chemex.jpg)
+
+今年，省篮协还将组织档次更高的国际性赛事。王立彬的想法是，未来将组织海、陆丝绸之路沿线国家和地区国际性篮球赛。如果这一构想能够成真，丝路国际篮球赛将横跨欧亚非三大洲，规模仅次于世界杯！
+
+这一战略促进的不仅是丝路沿途伙伴们篮球之间的交往，还将以篮球为桥梁，促进相互间的文化、经贸、旅游等交往，所谓篮球+。
+
+丝路杯联赛，主要是完善省内业余篮球联赛。目前，我省丝路联赛已经深入到市、区、县、镇，横跨各种行业，去年已经有大小各类赛事 1200 多场。今年进一步完善了赛制，参赛的球队将更多，赛事也更加规范化。
+
+第二件事，是为陕西信达男篮晋级 CBA 蓄势！
+
+陕西信达男篮已经获得 2015 年和 2017 年两个赛季的 NBL 总冠军，俱乐部非常重视软硬件建设，坐落在渭南的训练中心，按照 NBA 的标准建造，球队在韩籍教练姜正秀的带领下，韧劲十足，球风强悍，更像西北狼的风骨。但球队这么重视篮球，肯定不满足在 NBL 打拼，很想进军 CBA。

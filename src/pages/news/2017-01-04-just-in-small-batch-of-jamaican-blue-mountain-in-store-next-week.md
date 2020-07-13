@@ -1,34 +1,39 @@
 ---
 templateKey: "news-post"
-title: "News Just in: small batch of Jamaican Blue Mountain in store next week"
+title: 瑜伽教练组赴印度学习
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
 description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+  我们很高兴组织999名瑜伽爱好者赴印度进修，体验瑜伽。
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - 瑜伽
+  - 进修
+  - 印度
 ---
 
-We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
+![](/img/flavor_wheel.jpg)
 
-Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.
+这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 
-## A little history
+## 承办比赛
 
-The Blue Mountains are considered by many to be a hiker's and camper's paradise. The traditional Blue Mountain trek is a 7-mile hike to the peak and consists of a 3,000-foot increase in elevation. Jamaicans prefer to reach the peak at sunrise, thus the 3–4 hour hike is usually undertaken in darkness. Since the sky is usually very clear in the mornings, Cuba can be seen in the distance.
+第一件大事！第一件大事！！第一件大事！！！重要的事情先提醒三遍。就是省篮协精心打造的“丝路”杯综合篮球赛事。
 
-> Some of the plants found on the Blue Mountain cannot be found anywhere else in the world and they are often of a dwarfed sort.
+竞技赛事一般分为赛会和联赛两种，顾名思义，综合性赛事就是赛会和联赛一起办。赛会制的比赛，省篮协要主办国际性大赛。说到在陕西办国际赛事，并不稀奇，但以前的所谓国际赛事都是一些拼凑起来的所谓外国球队，来路不明。省篮协筹办的国际比赛，强调正规军对阵正规军。去年已经搞了非洲冠军安哥拉队与国内 CBA 青岛双星队在陕西的几站比赛，效果非常好。
 
-This is mainly due to the cold climate which inhibits growth. The small coffee farming communities of Claverty Cottage and Hagley Gap are located near the peak.
+- 玩得开心
+- 练得顺心
+- 顺利保障
+- 安全第一
 
-## What you need to know before trying
+![](/img/chemex.jpg)
 
-Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classification of coffee grown in the Blue Mountains of Jamaica. The best lots of Blue Mountain coffee are noted for their mild flavor and lack of bitterness. Over the past few decades, this coffee has developed a reputation that has made it one of the most expensive and sought-after coffees in the world. Over 80% of all Jamaican Blue Mountain Coffee is exported to Japan. In addition to its use for brewed coffee, the beans are the flavor base of Tia Maria coffee liqueur.
+今年，省篮协还将组织档次更高的国际性赛事。王立彬的想法是，未来将组织海、陆丝绸之路沿线国家和地区国际性篮球赛。如果这一构想能够成真，丝路国际篮球赛将横跨欧亚非三大洲，规模仅次于世界杯！
 
-Jamaican Blue Mountain Coffee is a globally protected certification mark, meaning only coffee certified by the Coffee Industry Board of Jamaica can be labeled as such. It comes from a recognized growing region in the Blue Mountain region of Jamaica, and its cultivation is monitored by the Coffee Industry Board of Jamaica.
+这一战略促进的不仅是丝路沿途伙伴们篮球之间的交往，还将以篮球为桥梁，促进相互间的文化、经贸、旅游等交往，所谓篮球+。
 
-The Blue Mountains are generally located between Kingston to the south and Port Antonio to the north. Rising 7,402 ft, they are some of the highest mountains in the Caribbean. The climate of the region is cool and misty with high rainfall. The soil is rich, with excellent drainage. This combination of climate and soil is considered ideal for coffee.
+丝路杯联赛，主要是完善省内业余篮球联赛。目前，我省丝路联赛已经深入到市、区、县、镇，横跨各种行业，去年已经有大小各类赛事 1200 多场。今年进一步完善了赛制，参赛的球队将更多，赛事也更加规范化。
+
+第二件事，是为陕西信达男篮晋级 CBA 蓄势！
+
+陕西信达男篮已经获得 2015 年和 2017 年两个赛季的 NBL 总冠军，俱乐部非常重视软硬件建设，坐落在渭南的训练中心，按照 NBA 的标准建造，球队在韩籍教练姜正秀的带领下，韧劲十足，球风强悍，更像西北狼的风骨。但球队这么重视篮球，肯定不满足在 NBL 打拼，很想进军 CBA。

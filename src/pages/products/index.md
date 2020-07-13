@@ -5,10 +5,7 @@ title: 我们的产品
 image: /img/jumbotron.jpg
 heading: 专为瑜伽爱好者打造的优质产品
 description: >-
-  Yoga is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  瑜伽是一种生活方式，我们针对瑜伽运动的特点，针对瑜伽爱好者量身打造了一整套的瑜伽配套产品，帮助大家更好的体验瑜伽运动，愉快生活，享受瑜伽。
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -23,19 +20,13 @@ intro:
     - image: /img/meeting-space.png
       text: >
         修出完美身姿
-  heading: What we offer
+  heading: 我们的产品
   description: >
-    Yoga is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+      瑜伽是一种生活方式，我们针对瑜伽运动的特点，针对瑜伽爱好者量身打造了一整套的瑜伽配套产品，帮助大家更好的体验瑜伽运动，愉快生活，享受瑜伽。
 main:
-  heading: Great coffee with no compromises
+  heading: 优质的产品，从不妥协
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    细节决定品质，我们的产品团队由国内瑜伽第一人和知名运动服装品牌联合打造，在追求舒适度的同时，更适合瑜伽运动，让爱好者更好的进行瑜伽运动，享受瑜伽带来的快乐。
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -58,9 +49,7 @@ full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    细节决定品质，我们的产品团队由国内瑜伽第一人和知名运动服装品牌联合打造，在追求舒适度的同时，更适合瑜伽运动，让爱好者更好的进行瑜伽运动，享受瑜伽带来的快乐。
   plans:
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:

@@ -1,34 +1,38 @@
 ---
 templateKey: news-post
-title: News Making sense of the SCAA’s new Flavor Wheel
+title: 第一届瑜伽比赛胜利召开
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+description: 2020年6月，第一节瑜伽比赛在我市朱雀体育场顺利举办，吸引了全国999名参赛选手。
 tags:
-  - flavor
-  - tasting
+  - 比赛
+  - 瑜伽
 ---
 
-![flavor wheel](/img/flavor_wheel.jpg)
+![](/img/flavor_wheel.jpg)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+## 承办比赛
 
-## What the updates mean to you
+第一件大事！第一件大事！！第一件大事！！！重要的事情先提醒三遍。就是省篮协精心打造的“丝路”杯综合篮球赛事。
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+竞技赛事一般分为赛会和联赛两种，顾名思义，综合性赛事就是赛会和联赛一起办。赛会制的比赛，省篮协要主办国际性大赛。说到在陕西办国际赛事，并不稀奇，但以前的所谓国际赛事都是一些拼凑起来的所谓外国球队，来路不明。省篮协筹办的国际比赛，强调正规军对阵正规军。去年已经搞了非洲冠军安哥拉队与国内 CBA 青岛双星队在陕西的几站比赛，效果非常好。
 
-- producers
-- roasters
-- importers/exporters
-- retailers
-- manufacturers
-- baristas
+- 玩得开心
+- 练得顺心
+- 顺利保障
+- 安全第一
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+![](/img/chemex.jpg)
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+今年，省篮协还将组织档次更高的国际性赛事。王立彬的想法是，未来将组织海、陆丝绸之路沿线国家和地区国际性篮球赛。如果这一构想能够成真，丝路国际篮球赛将横跨欧亚非三大洲，规模仅次于世界杯！
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+这一战略促进的不仅是丝路沿途伙伴们篮球之间的交往，还将以篮球为桥梁，促进相互间的文化、经贸、旅游等交往，所谓篮球+。
+
+丝路杯联赛，主要是完善省内业余篮球联赛。目前，我省丝路联赛已经深入到市、区、县、镇，横跨各种行业，去年已经有大小各类赛事 1200 多场。今年进一步完善了赛制，参赛的球队将更多，赛事也更加规范化。
+
+第二件事，是为陕西信达男篮晋级 CBA 蓄势！
+
+陕西信达男篮已经获得 2015 年和 2017 年两个赛季的 NBL 总冠军，俱乐部非常重视软硬件建设，坐落在渭南的训练中心，按照 NBA 的标准建造，球队在韩籍教练姜正秀的带领下，韧劲十足，球风强悍，更像西北狼的风骨。但球队这么重视篮球，肯定不满足在 NBL 打拼，很想进军 CBA。

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+// import logo from "../img/logo.svg";
+import logo from "../img/yoga-header-logo.jpeg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +43,8 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Yoga" style={{ width: "88px" }} />
+              {/* <img src={logo} alt="Yoga" style={{ width: "88px" }} /> */}
+              Yoga
             </Link>
             {/* Hamburger menu */}
             <div
@@ -75,18 +77,18 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 博客
               </Link>
-              <Link className="navbar-item" to="/products">
+              {/* <Link className="navbar-item" to="/products">
                 产品
-              </Link>
+              </Link> */}
               <Link className="navbar-item" to="/contact">
                 联系我们
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
-              </Link>
-              <Link className="navbar-item" to="/home2">
+              </Link> */}
+              {/* <Link className="navbar-item" to="/home2">
                 Home2
-              </Link>
+              </Link> */}
             </div>
             {/* <div className="navbar-end has-text-centered">
               <a

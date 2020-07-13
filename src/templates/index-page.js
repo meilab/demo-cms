@@ -22,7 +22,14 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
   return (
     <>
       <section className="header">
-        <div className="header-container  container">
+        <div className="header-container container"
+          style={{
+            maxWidth: '100%',
+            backgroundSize: 'cover',
+            backgroundPosition: 'bottom',
+            backgroundImage: `url('/img/yoga-hero.jpg')`,
+          }}
+        >
           {home.headerImage && (
             <div
               style={{ width: "300px", height: "auto" }}

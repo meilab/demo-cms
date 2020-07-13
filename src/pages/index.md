@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 headerImage:
-  image: /img/television.png
+  image: /img/yoga-logo.jpg
   imageAlt: JavaScript Wakanda
 title: 遇到更多的瑜伽爱好者共同切磋共同成长
 upcomingGameHeading: 近期赛事

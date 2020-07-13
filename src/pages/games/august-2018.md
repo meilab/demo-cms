@@ -29,23 +29,21 @@ location:
 
 ![flavor wheel](/img/flavor_wheel.jpg)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+2020年6月在陕西朱雀体育场举办第一节陕西省瑜伽大赛
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+## 比赛宗旨
 
-## What the updates mean to you
+本届比赛秉持一下宗旨:
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+- 玩得开心
+- 练得顺心
+- 顺利保障
+- 安全第一
 
-- producers
-- roasters
-- importers/exporters
-- retailers
-- manufacturers
-- baristas
+本届赛事共分U8、U10男子、U10混合、U12男子和U12女子5个组别，共有80支队伍，总计636名队员报名参赛。本次比赛市篮协进行了全程网络直播，通过我奥篮球网络平台，家长、朋友们都可以看到小球员的精彩表现。
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+本次比赛可谓是精彩纷呈，U8组别共计28支队伍，经过49场比赛的激烈角逐，童乐体育U8一队以一分险胜，获得U8组冠军。
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+U10男子组男子组共计17支队伍，经过35场比赛的对垒，汉阴县蒲溪小学获得冠军。U10混合组共报名9支球队，共计19场比赛，最终汉阴县蒲溪小学获得冠军。U12男子组报名参赛20支球队，经过37场比赛的激烈对阵，镇坪第三学区代表队下下半场完成了不可完成的任务，13分的大逆转和读秒绝杀，整个过程惊心动魄，最终斩获冠军。U12女子组共计6支球队经过15场比赛的激烈角逐，最终汉阴县城关一小获得冠军。
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+在此次竞赛中，我们的小球员们用实际行动践行了赛出风格、赛出水平、赛出友谊的竞赛精神，赛前做好充足准备、自觉服从裁判的审核、诚信参赛，赛中尊重对手、服从裁判裁决，赛后双方球员主动问好、致谢裁判并保持场地清洁，在此我们为安康赛区的小运动员们点赞！ 小勇士们，未来可期！

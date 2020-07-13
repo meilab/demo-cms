@@ -1,22 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+// import logo from '../img/logo.svg'
+import logo from "../img/yoga-header-logo.jpeg";
+import wechat from '../img/social/wechat.png'
+import weibo from '../img/social/weibo.png'
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
+          {/* <img
             src={logo}
             alt="Yoga"
             style={{ width: '14em', height: '10em' }}
-          />
+          /> */}
+          Yoga
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -44,11 +44,11 @@ const Footer = class extends React.Component {
                         运动员
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="navbar-item" to="/products">
                         产品
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         className="navbar-item"
@@ -84,32 +84,32 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+                <a title="微信" href="https://wechat.com">
                   <img
-                    src={facebook}
-                    alt="Facebook"
+                    src={wechat}
+                    alt="wechat"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a title="微博" href="https://weibo.com">
                   <img
                     className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
+                    src={weibo}
+                    alt="weibo"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="抖音" href="https://douyin.com">
                   <img
-                    src={instagram}
-                    alt="Instagram"
+                    src={wechat}
+                    alt="douyin"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="B站" href="https://bilibili.com">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
+                    src={weibo}
+                    alt="bilibily"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
