@@ -4,7 +4,7 @@ name: 高烦
 number: 1144
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
-featuredimage: /img/lucas-sankey-378674-unsplash.jpg
+featuredimage: /img/guobiao.jpg
 description: 山东泰安人，热爱运动
 tags:
   - jamaica
@@ -13,7 +13,7 @@ tags:
   - tasting
 ---
 
-![](/img/lucas-sankey-378674-unsplash.jpg)
+![](/img/guobiao.jpg)
 
 高烦是一位著名的健身教练，瑜伽大师，演说家，他指导过的明星有 Peta Wilson、Donna Karan 等，指导过的 UFC 选手有 Alberto Crane、Jorge Rivera、Andrei Arlovs、Elvis Sinosic 等。他的健身体系 Circular Strength Training 已经成为美国陆军的正式训练项目。他还是一位作家，演说家，Mensa（一个国际组织）成员，并且积极投身于预防儿童肥胖问题。
 

@@ -3,14 +3,14 @@ templateKey: blog-post
 title: 初心不改，瑜伽不断
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/yoga-life.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 tags:
   - 瑜伽
   - 坚持
 ---
 
-![](/img/flavor_wheel.jpg)
+![](/img/yoga-life.jpg)
 
 这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 
@@ -25,7 +25,7 @@ tags:
 - 顺利保障
 - 安全第一
 
-![](/img/chemex.jpg)
+![](/img/yoga-life.jpg)
 
 今年，省篮协还将组织档次更高的国际性赛事。王立彬的想法是，未来将组织海、陆丝绸之路沿线国家和地区国际性篮球赛。如果这一构想能够成真，丝路国际篮球赛将横跨欧亚非三大洲，规模仅次于世界杯！
 

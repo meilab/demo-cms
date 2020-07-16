@@ -21,12 +21,12 @@ developerGroups: |-
 organizers:
   title: 协会创始人
   gallery:
-    - image: /img/organizer-1.jpg
-      imageAlt: 郭彪
-      name: 郭彪
-    - image: /img/organizer-2.jpg
-      imageAlt: 郭彪
-      name: 郭彪
+    - image: /img/guobiao.jpg
+      imageAlt: 郭飙
+      name: 郭飙
+    - image: /img/guobiao.jpg
+      imageAlt: 郭飙
+      name: 郭飙
 seo:
   browserTitle: 简介 | 瑜伽协会
   description: >-

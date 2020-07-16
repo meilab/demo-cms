@@ -4,14 +4,14 @@ name: 张杰
 number: 1130
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/ramy-kabalan-796973-unsplash.jpg
+featuredimage: /img/guobiao.jpg
 description: 陕西省西安市人，热爱运动.
 tags:
   - flavor
   - tasting
 ---
 
-![](/img/ramy-kabalan-796973-unsplash.jpg)
+![](/img/guobiao.jpg)
 
 张杰是一位著名的健身教练，瑜伽大师，演说家，他指导过的明星有 Peta Wilson、Donna Karan 等，指导过的 UFC 选手有 Alberto Crane、Jorge Rivera、Andrei Arlovs、Elvis Sinosic 等。他的健身体系 Circular Strength Training 已经成为美国陆军的正式训练项目。他还是一位作家，演说家，Mensa（一个国际组织）成员，并且积极投身于预防儿童肥胖问题。
 
