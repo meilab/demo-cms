@@ -16,7 +16,7 @@ const Footer = class extends React.Component {
             alt="Yoga"
             style={{ width: '14em', height: '10em' }}
           /> */}
-          Yoga
+          陕西省健身瑜伽协会
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -31,24 +31,22 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link className="navbar-item" to="/about">
-                        关于我们
+                        协会介绍
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/game">
-                        比赛
+                      <Link className="navbar-item" to="/notifications">
+                        公告通知
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/athlete">
-                        运动员
-                      </Link>
+                    <Link className="navbar-item" to="/pastGames">
+                赛事活动
+              </Link>
                     </li>
-                    {/* <li>
-                      <Link className="navbar-item" to="/products">
-                        产品
-                      </Link>
-                    </li> */}
+                    <Link className="navbar-item" to="/culture">
+                瑜伽文化
+              </Link>
                     <li>
                       <a
                         className="navbar-item"
@@ -66,19 +64,29 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                   <li>
-                      <Link className="navbar-item" to="/news">
-                        新闻
-                      </Link>
+                  <Link className="navbar-item" to="/training">
+                培训认证
+              </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/blog">
-                        我们的故事
-                      </Link>
+                    <Link className="navbar-item" to="/certificate">
+                证书查询
+              </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
-                        联系我们
-                      </Link>
+                    <Link className="navbar-item" to="/member">
+                会员管理
+              </Link>
+                    </li>
+                    <li>
+                    <Link className="navbar-item" to="/athlete">
+                人才管理
+              </Link>
+                    </li>
+                    <li>
+                    <Link className="navbar-item" to="/cooperation">
+                战略合作
+              </Link>
                     </li>
                   </ul>
                 </section>

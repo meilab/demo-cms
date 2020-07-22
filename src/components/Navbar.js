@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               {/* <img src={logo} alt="Yoga" style={{ width: "88px" }} /> */}
-              Yoga
+              陕西省健身瑜伽协会
             </Link>
             {/* Hamburger menu */}
             <div
@@ -63,25 +63,34 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
-                关于我们
+                协会介绍
+              </Link>
+              <Link className="navbar-item" to="/notifications">
+                公告通知
               </Link>
               <Link className="navbar-item" to="/pastGames">
-                过往比赛
+                赛事活动
+              </Link>
+              <Link className="navbar-item" to="/training">
+                培训认证
+              </Link>
+              <Link className="navbar-item" to="/certificate">
+                证书查询
+              </Link>
+              <Link className="navbar-item" to="/member">
+                会员管理
               </Link>
               <Link className="navbar-item" to="/athlete">
-                运动员
+                人才管理
               </Link>
-              <Link className="navbar-item" to="/news">
-                新闻
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                博客
+              <Link className="navbar-item" to="/culture">
+                瑜伽文化
               </Link>
               {/* <Link className="navbar-item" to="/products">
                 产品
               </Link> */}
-              <Link className="navbar-item" to="/contact">
-                联系我们
+              <Link className="navbar-item" to="/cooperation">
+                战略合作
               </Link>
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
