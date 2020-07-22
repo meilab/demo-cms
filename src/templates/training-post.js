@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const TrainingPostTemplate = ({
+export const TrainingTemplate = ({
   content,
   contentComponent,
   description,
@@ -46,7 +46,7 @@ export const TrainingPostTemplate = ({
   )
 }
 
-TrainingPostTemplate.propTypes = {
+TrainingTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -54,12 +54,12 @@ TrainingPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const TrainingPost = ({ data }) => {
+const Training = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <TrainingPostTemplate
+      <TrainingTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -79,16 +79,16 @@ const TrainingPost = ({ data }) => {
   )
 }
 
-TrainingPost.propTypes = {
+Training.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default TrainingPost
+export default Training
 
 export const pageQuery = graphql`
-  query TrainingPostByID($id: String!) {
+  query TrainingByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
