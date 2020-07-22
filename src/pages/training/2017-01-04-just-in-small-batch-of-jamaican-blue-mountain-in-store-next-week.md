@@ -1,16 +1,16 @@
 ---
-templateKey: blog-post
-title: 瑜伽与生活
+templateKey: "training-post"
+title: 爱上瑜伽，爱上未来的自己
 date: 2017-01-04T15:04:10.000Z
-featuredpost: false
-featuredimage: /img/yoga-life.jpg
-description: 瑜伽是一种生活方式，让身心与大自然融合。
+featuredpost: true
+description: >-
+  今天瑜伽一小时，健康生活一辈子
 tags:
   - 瑜伽
+  - 未来
   - 生活
+  - 大自然
 ---
-
-![](/img/yoga-life.jpg)
 
 这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 

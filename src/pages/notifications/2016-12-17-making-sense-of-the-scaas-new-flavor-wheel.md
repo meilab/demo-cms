@@ -1,13 +1,13 @@
 ---
-templateKey: news-post
-title: 全国瑜伽协会举行座谈
-date: 2017-01-04T15:04:10.000Z
+templateKey: notifications-post
+title: 第一届瑜伽比赛胜利召开
+date: 2016-12-17T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/yoga-game.jpg
-description: 协会组织全国个大瑜伽团体在陕西举办瑜伽座谈会，旨在规范瑜伽运动，提升瑜伽在全民健身重的作用。
+description: 2020年6月，第一节瑜伽比赛在我市朱雀体育场顺利举办，吸引了全国999名参赛选手。
 tags:
   - 比赛
-  - 座谈
+  - 瑜伽
 ---
 
 ![](/img/yoga-game.jpg)

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: training-post
 title: 初心不改，瑜伽不断
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false

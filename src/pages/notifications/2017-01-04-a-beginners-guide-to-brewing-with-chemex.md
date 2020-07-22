@@ -1,14 +1,13 @@
 ---
-templateKey: "news-post"
-title: 瑜伽教练组赴印度学习
+templateKey: notifications-post
+title: 全国瑜伽协会举行座谈
 date: 2017-01-04T15:04:10.000Z
-featuredpost: true
-description: >-
-  我们很高兴组织999名瑜伽爱好者赴印度进修，体验瑜伽。
+featuredpost: false
+featuredimage: /img/yoga-game.jpg
+description: 协会组织全国个大瑜伽团体在陕西举办瑜伽座谈会，旨在规范瑜伽运动，提升瑜伽在全民健身重的作用。
 tags:
-  - 瑜伽
-  - 进修
-  - 印度
+  - 比赛
+  - 座谈
 ---
 
 ![](/img/yoga-game.jpg)

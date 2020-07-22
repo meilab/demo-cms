@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import AthleteRoll from "../../components/AthleteRoll";
 
-export default class BlogIndexPage extends React.Component {
+export default class TrainingIndexPage extends React.Component {
   render() {
     return (
       <Layout>
