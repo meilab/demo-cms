@@ -1,9 +1,9 @@
 ---
 templateKey: about-page
-title: 陕西瑜伽协会
+title: 陕西省健身瑜伽协会瑜伽协会
 mainImage:
   image: /img/teemu-paananen-376238-unsplash.jpg
-  imageAlt: Wakanda JavaScript developer presenting at a game.
+  imageAlt: 瑜伽走起
 gallery:
   - image: /img/neonbrand-509131-unsplash.jpg
     imageAlt: Wakanda JavaScript developer presenting at a game.
@@ -27,10 +27,12 @@ organizers:
     - image: /img/guobiao.jpg
       imageAlt: 郭飙
       name: 郭飙
+    - name: 郭飙
+      image: /img/guobiao.jpg
+      imageAlt: 郭飙
 seo:
   browserTitle: 简介 | 瑜伽协会
-  description: >-
-    JavaScript Wakanda is a game group that holds monthly games where
+  description: JavaScript Wakanda is a game group that holds monthly games where
     JavaScript developers get together for presentations and to meet others in
     the community.
   title: 简介 | 瑜伽协会
