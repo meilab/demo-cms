@@ -1,16 +1,37 @@
 ---
 templateKey: about-page
-title: 陕西省健身瑜伽协会瑜伽协会
+title: 陕西省健身瑜伽协会
 mainImage:
   image: /img/teemu-paananen-376238-unsplash.jpg
   imageAlt: 瑜伽走起
-gallery:
-  - image: /img/neonbrand-509131-unsplash.jpg
-    imageAlt: Wakanda JavaScript developer presenting at a game.
-  - image: /img/jakob-dalbjorn-730178-unsplash.jpg
-    imageAlt: Wakanda JavaScript developer presenting at a game.
-  - image: /img/annie-spratt-608001-unsplash.jpg
-    imageAlt: Wakanda developers working together at a table.
+orgImage:
+  image: /img/teemu-paananen-376238-unsplash.jpg
+  imageAlt: 组织架构图
+  name: 组织架构图
+companyMember:
+  title: 单位会员
+  gallery:
+    - image: /img/neonbrand-509131-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
+personalMember:
+  title: 个人会员
+  gallery:
+    - image: /img/neonbrand-509131-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
 developerGroups: |-
   ## 兄弟协会
 
@@ -18,8 +39,8 @@ developerGroups: |-
   * [陕西足球协会](https://www.baidu.com)
   * [陕西羽毛球协会](https://www.baidu.com)
   * [国家体育总局](https://www.baidu.com)
-organizers:
-  title: 协会创始人
+purpose:
+  title: 协会宗旨
   gallery:
     - image: /img/guobiao.jpg
       imageAlt: 郭飙

@@ -28,6 +28,7 @@ export const AboutPageTemplate = (props) => {
           </div>
         </section>
         <section className="section">
+          <h2 className="purpose-title">{"协会介绍"}</h2>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,
               so we must use the ReactMarkdown component to parse the markdown in that case  */}
           {page.bodyIsMarkdown ? (
@@ -35,14 +36,6 @@ export const AboutPageTemplate = (props) => {
           ) : (
             <HTMLContent className="about-description" content={page.html} />
           )}
-          <ul className="about-gallery  galleryList">
-            {page.frontmatter.gallery.map((galleryImage, index) => (
-              <li key={index} className="galleryList-item">
-                <PreviewCompatibleImage imageInfo={galleryImage} />
-                {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
-              </li>
-            ))}
-          </ul>
         </section>
       </div>
       <section className="section  developerGroups  about-developerGroups">
@@ -50,32 +43,60 @@ export const AboutPageTemplate = (props) => {
           <ReactMarkdown source={page.frontmatter.developerGroups} />
         </div>
       </section>
-      <section className="section  organizers  about-organizers">
-        <div className="container  organizers-container">
-          <h2 className="organizers-title">
-            {page.frontmatter.organizers.title}
-          </h2>
-          <ul className="organizers-list">
-            {page.frontmatter.organizers.gallery.map((galleryImage, index) => (
-              <li key={index} className="organizers-listItem">
+      <section className="about-header">
+        <div className="about-titleWrapper">
+          <h1 className="about-title">{page.frontmatter.orgImage.name}</h1>
+        </div>
+        <div className="about-imageWrapper">
+          <PreviewCompatibleImage imageInfo={page.frontmatter.orgImage} />
+        </div>
+      </section>
+      <section className="section  purpose  about-purpose">
+        <div className="container  purpose-container">
+          <h2 className="purpose-title">{page.frontmatter.purpose.title}</h2>
+          <ul className="purpose-list">
+            {page.frontmatter.purpose.gallery.map((galleryImage, index) => (
+              <li key={index} className="purpose-listItem">
                 <div
                   style={{ width: "300px", height: "auto" }}
-                  className="organizers-listItemImage"
+                  className="purpose-listItemImage"
                 >
                   <PreviewCompatibleImage imageInfo={galleryImage} />
                 </div>
                 {/* <img
-                  className="organizers-listItemImage"
+                  className="purpose-listItemImage"
                   src={galleryImage.image}
                   alt={galleryImage.imageAlt}
                 /> */}
-                <span className="organizers-listItemName">
+                <span className="purpose-listItemName">
                   {galleryImage.name}
                 </span>
               </li>
             ))}
           </ul>
         </div>
+      </section>
+      <section className="section">
+        <h2 className="purpose-title">{page.frontmatter.companyMember.title}</h2>
+        <ul className="about-gallery  galleryList">
+          {page.frontmatter.companyMember.gallery.map((galleryImage, index) => (
+            <li key={index} className="galleryList-item">
+              <PreviewCompatibleImage imageInfo={galleryImage} />
+              {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section className="section">
+        <h2 className="purpose-title">{page.frontmatter.personalMember.title}</h2>
+        <ul className="about-gallery  galleryList">
+          {page.frontmatter.personalMember.gallery.map((galleryImage, index) => (
+            <li key={index} className="galleryList-item">
+              <PreviewCompatibleImage imageInfo={galleryImage} />
+              {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
+            </li>
+          ))}
+        </ul>
       </section>
     </article>
   );
@@ -123,7 +144,7 @@ export const aboutPageQuery = graphql`
           }
           imageAlt
         }
-        gallery {
+        orgImage {
           image {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {
@@ -132,9 +153,38 @@ export const aboutPageQuery = graphql`
             }
           }
           imageAlt
+          name
         }
         developerGroups
-        organizers {
+        purpose {
+          title
+          gallery {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            imageAlt
+            name
+          }
+        }
+        companyMember {
+          title
+          gallery {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            imageAlt
+            name
+          }
+        }
+        personalMember {
           title
           gallery {
             image {

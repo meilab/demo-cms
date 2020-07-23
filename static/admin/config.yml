@@ -13,7 +13,7 @@ public_folder: /img
 
 collections:
   - name: "game"
-    label: "过往比赛"
+    label: "比赛"
     folder: "src/pages/game"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -40,7 +40,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
 
   - name: "training"
-    label: "博客"
+    label: "培训认证"
     folder: "src/pages/training"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -60,7 +60,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
 
   - name: "athlete"
-    label: "运动员"
+    label: "人才管理"
     folder: "src/pages/athlete"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -81,7 +81,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
 
   - name: "notifications"
-    label: "新闻"
+    label: "公告通知"
     folder: "src/pages/notifications"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -190,7 +190,7 @@ collections:
             }
       - file: "src/pages/about/index.md"
         label: "About"
-        name: "about"
+        name: "协会介绍"
         fields:
           - {
               label: "Template Key",
@@ -213,11 +213,16 @@ collections:
                   },
                 ],
             }
+          - {
+              label: "Developer Groups",
+              name: "developerGroups",
+              widget: "markdown",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
-              label: "Image Gallery",
-              name: "gallery",
-              widget: "list",
+              label: "Org Image",
+              name: "orgImage",
+              widget: "object",
               fields:
                 [
                   { label: "Image", name: "image", widget: "image" },
@@ -229,13 +234,8 @@ collections:
                 ],
             }
           - {
-              label: "Developer Groups",
-              name: "developerGroups",
-              widget: "markdown",
-            }
-          - {
-              label: "Game Organizers",
-              name: "organizers",
+              label: "Association Purpose",
+              name: "purpose",
               widget: "object",
               fields:
                 [
@@ -247,6 +247,52 @@ collections:
                     fields:
                       [
                         { label: "Name", name: "name", widget: "string" },
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Description",
+                          name: "imageAlt",
+                          widget: "string",
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Company Member",
+              name: "companyMember",
+              widget: "object",
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  {
+                    label: "Image Gallery",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Image", name: "image", widget: "image" },
+                        {
+                          label: "Image Description",
+                          name: "imageAlt",
+                          widget: "string",
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Personal Member",
+              name: "personalMember",
+              widget: "object",
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  {
+                    label: "Image Gallery",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
                         { label: "Image", name: "image", widget: "image" },
                         {
                           label: "Image Description",
@@ -276,117 +322,117 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "product-page",
-            }
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: string }
-          - {
-              label: Intro,
-              name: intro,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Blurbs,
-                    name: blurbs,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Main,
-              name: main,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Image1,
-                    name: image1,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image2,
-                    name: image2,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image3,
-                    name: image3,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Testimonials,
-              name: testimonials,
-              widget: list,
-              fields:
-                [
-                  { label: Quote, name: quote, widget: string },
-                  { label: Author, name: author, widget: string },
-                ],
-            }
-          - { label: Full_image, name: full_image, widget: image }
-          - {
-              label: Pricing,
-              name: pricing,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: string },
-                  {
-                    label: Plans,
-                    name: plans,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Plan, name: plan, widget: string },
-                        { label: Price, name: price, widget: string },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: string,
-                        },
-                        { label: Items, name: items, widget: list },
-                      ],
-                  },
-                ],
-            }
+      # - file: "src/pages/products/index.md"
+      #   label: "Products Page"
+      #   name: "products"
+      #   fields:
+      #     - {
+      #         label: "Template Key",
+      #         name: "templateKey",
+      #         widget: "hidden",
+      #         default: "product-page",
+      #       }
+      #     - { label: Title, name: title, widget: string }
+      #     - { label: Image, name: image, widget: image }
+      #     - { label: Heading, name: heading, widget: string }
+      #     - { label: Description, name: description, widget: string }
+      #     - {
+      #         label: Intro,
+      #         name: intro,
+      #         widget: object,
+      #         fields:
+      #           [
+      #             { label: Heading, name: heading, widget: string },
+      #             { label: Description, name: description, widget: text },
+      #             {
+      #               label: Blurbs,
+      #               name: blurbs,
+      #               widget: list,
+      #               fields:
+      #                 [
+      #                   { label: Image, name: image, widget: image },
+      #                   { label: Text, name: text, widget: text },
+      #                 ],
+      #             },
+      #           ],
+      #       }
+      #     - {
+      #         label: Main,
+      #         name: main,
+      #         widget: object,
+      #         fields:
+      #           [
+      #             { label: Heading, name: heading, widget: string },
+      #             { label: Description, name: description, widget: text },
+      #             {
+      #               label: Image1,
+      #               name: image1,
+      #               widget: object,
+      #               fields:
+      #                 [
+      #                   { label: Image, name: image, widget: image },
+      #                   { label: Alt, name: alt, widget: string },
+      #                 ],
+      #             },
+      #             {
+      #               label: Image2,
+      #               name: image2,
+      #               widget: object,
+      #               fields:
+      #                 [
+      #                   { label: Image, name: image, widget: image },
+      #                   { label: Alt, name: alt, widget: string },
+      #                 ],
+      #             },
+      #             {
+      #               label: Image3,
+      #               name: image3,
+      #               widget: object,
+      #               fields:
+      #                 [
+      #                   { label: Image, name: image, widget: image },
+      #                   { label: Alt, name: alt, widget: string },
+      #                 ],
+      #             },
+      #           ],
+      #       }
+      #     - {
+      #         label: Testimonials,
+      #         name: testimonials,
+      #         widget: list,
+      #         fields:
+      #           [
+      #             { label: Quote, name: quote, widget: string },
+      #             { label: Author, name: author, widget: string },
+      #           ],
+      #       }
+      #     - { label: Full_image, name: full_image, widget: image }
+      #     - {
+      #         label: Pricing,
+      #         name: pricing,
+      #         widget: object,
+      #         fields:
+      #           [
+      #             { label: Heading, name: heading, widget: string },
+      #             { label: Description, name: description, widget: string },
+      #             {
+      #               label: Plans,
+      #               name: plans,
+      #               widget: list,
+      #               fields:
+      #                 [
+      #                   { label: Plan, name: plan, widget: string },
+      #                   { label: Price, name: price, widget: string },
+      #                   {
+      #                     label: Description,
+      #                     name: description,
+      #                     widget: string,
+      #                   },
+      #                   { label: Items, name: items, widget: list },
+      #                 ],
+      #             },
+      #           ],
+      #       }
   # - name: "navbarAndFooter"
   #   label: "Navbar & Footer"
   #   files:
