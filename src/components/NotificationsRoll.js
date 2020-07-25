@@ -3,20 +3,23 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-function NotificationsRoll({ data }) {
+function NotificationRoll({ data }) {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
     <div className="columns is-multiline">
       {posts &&
         posts.map(({ node: post }) => (
-          <div className="is-parent column is-6" key={post.id}>
-            <article
-              className={`training-list-item tile is-child box notification ${
-                post.frontmatter.featuredpost ? 'is-featured' : ''
-              }`}
+          <div className="is-parent column is-4" key={post.id}>
+            <Link
+              className="title has-text-primary is-size-4"
+              to={post.fields.slug}
             >
-              <header>
+              <article
+                className={`training-list-item tile is-child box notification ${
+                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                }`}
+              >
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
@@ -28,34 +31,21 @@ function NotificationsRoll({ data }) {
                   </div>
                 ) : null}
                 <p className="post-meta">
-                  <Link
-                    className="title has-text-primary is-size-4"
-                    to={post.fields.slug}
-                  >
                     {post.frontmatter.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-5 is-block">
-                    {post.frontmatter.date}
-                  </span>
+                    {/* <span> &bull; </span> */}
+                    <span className="subtitle is-size-5 is-block">
+                      {post.frontmatter.description}
+                    </span>
                 </p>
-              </header>
-              <p>
-                {post.excerpt}
-                <br />
-                <br />
-                <Link className="button" to={post.fields.slug}>
-                  阅读更多 →
-                </Link>
-              </p>
-            </article>
+              </article>
+            </Link>
           </div>
         ))}
     </div>
   )
 }
 
-NotificationsRoll.propTypes = {
+NotificationRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -66,7 +56,7 @@ NotificationsRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query NotificationsRollQuery {
+      query NotificationRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "notifications-post" } } }
@@ -83,6 +73,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
@@ -96,6 +87,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <NotificationsRoll data={data} count={count} />}
+    render={(data, count) => <NotificationRoll data={data} count={count} />}
   />
 )

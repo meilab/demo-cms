@@ -10,13 +10,16 @@ function TrainingRoll({ data }) {
     <div className="columns is-multiline">
       {posts &&
         posts.map(({ node: post }) => (
-          <div className="is-parent column is-6" key={post.id}>
-            <article
-              className={`training-list-item tile is-child box notification ${
-                post.frontmatter.featuredpost ? 'is-featured' : ''
-              }`}
+          <div className="is-parent column is-4" key={post.id}>
+            <Link
+              className="title has-text-primary is-size-4"
+              to={post.fields.slug}
             >
-              <header>
+              <article
+                className={`training-list-item tile is-child box notification ${
+                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                }`}
+              >
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
@@ -28,27 +31,14 @@ function TrainingRoll({ data }) {
                   </div>
                 ) : null}
                 <p className="post-meta">
-                  <Link
-                    className="title has-text-primary is-size-4"
-                    to={post.fields.slug}
-                  >
                     {post.frontmatter.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-5 is-block">
-                    {post.frontmatter.date}
-                  </span>
+                    {/* <span> &bull; </span> */}
+                    <span className="subtitle is-size-5 is-block">
+                      {post.frontmatter.description}
+                    </span>
                 </p>
-              </header>
-              <p>
-                {post.excerpt}
-                <br />
-                <br />
-                <Link className="button" to={post.fields.slug}>
-                  阅读更多 →
-                </Link>
-              </p>
-            </article>
+              </article>
+            </Link>
           </div>
         ))}
     </div>
@@ -83,6 +73,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {

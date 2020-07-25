@@ -71,31 +71,20 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/pastGames">
                 赛事活动
               </Link>
-              <Link className="navbar-item" to="/training">
-                培训认证
-              </Link>
               {/* <Link className="navbar-item" to="/certificate"> */}
               <Link className="navbar-item" to="/coming">
                 证书查询
-              </Link>
-              {/* <Link className="navbar-item" to="/member"> */}
-              <Link className="navbar-item" to="/coming">
-                会员管理
-              </Link>
-              <Link className="navbar-item" to="/athlete">
-                人才管理
               </Link>
               {/* <Link className="navbar-item" to="/culture"> */}
               <Link className="navbar-item" to="/coming">
                 瑜伽文化
               </Link>
+              <Link className="navbar-item" to="/coming">
+                下载专区
+              </Link>
               {/* <Link className="navbar-item" to="/products">
                 产品
               </Link> */}
-              {/* <Link className="navbar-item" to="/cooperation"> */}
-              <Link className="navbar-item" to="/coming">
-                战略合作
-              </Link>
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}

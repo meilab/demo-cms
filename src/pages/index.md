@@ -1,12 +1,55 @@
 ---
 templateKey: index-page
 headerImage:
-  image: /img/yoga-logo.jpg
+  image: /img/logo.png
   imageAlt: JavaScript Wakanda
 title: 遇到更多的瑜伽爱好者共同切磋共同成长
 upcomingGameHeading: 近期赛事
 noUpcomingGameText: Details to be announced.
 mapsNote: Clicking the pin opens Google Maps in a new tab.
+slider:
+  title: 重要事件
+  gallery:
+    - image: /img/neonbrand-509131-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+      url: www.baidu.com
+    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+      url: www.baidu.com
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
+      url: www.baidu.com
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
+      url: www.baidu.com
+cooperation:
+  title: 战略合作
+  gallery:
+    - image: /img/neonbrand-509131-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
+    - image: /img/annie-spratt-608001-unsplash.jpg
+      imageAlt: Wakanda developers working together at a table.
+      name: 郭飙
+    - image: /img/neonbrand-509131-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
+    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 郭飙
 callToActions:
   firstCTA:
     heading: 过往比赛

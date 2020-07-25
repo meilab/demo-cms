@@ -22,11 +22,12 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
   return (
     <>
       <section className="header">
-        <div className="header-container container"
+        <div
+          className="header-container container"
           style={{
-            maxWidth: '100%',
-            backgroundSize: 'cover',
-            backgroundPosition: 'bottom',
+            maxWidth: "100%",
+            backgroundSize: "cover",
+            backgroundPosition: "bottom",
             backgroundImage: `url('/img/yoga-hero.jpg')`,
           }}
         >
@@ -137,11 +138,13 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
       <section className="notificationsAndTrainings  section">
         <div className="upcomingGame-container  container">
           <div className="column is-12">
-            <h3 className="notificationsAndTrainings-title has-text-weight-semibold is-size-2">新闻</h3>
+            <h3 className="notificationsAndTrainings-title has-text-weight-semibold is-size-2">
+              赛事活动
+            </h3>
             <NotificationsRoll />
             <div className="column is-12 has-text-centered">
               <Link className="btn" to="/notifications">
-                更多新闻
+                更多赛事
               </Link>
             </div>
           </div>
@@ -150,15 +153,28 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
       <section className="notificationsAndTrainings  section">
         <div className="upcomingGame-container  container">
           <div className="column is-12">
-            <h3 className="notificationsAndTrainings-title has-text-weight-semibold is-size-2">我们的故事</h3>
+            <h3 className="notificationsAndTrainings-title has-text-weight-semibold is-size-2">
+              培训认证
+            </h3>
             <TrainingRoll />
             <div className="column is-12 has-text-centered">
               <Link className="btn" to="/training">
-                更多故事
+                更多培训
               </Link>
             </div>
           </div>
         </div>
+      </section>
+      <section className="section">
+        <h2 className="purpose-title">{home.cooperation.title}</h2>
+        <ul className="about-gallery  galleryList">
+          {home.cooperation.gallery.map((galleryImage, index) => (
+            <li key={index} className="galleryList-item">
+              <PreviewCompatibleImage imageInfo={galleryImage} />
+              {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
+            </li>
+          ))}
+        </ul>
       </section>
     </>
   );
@@ -264,6 +280,35 @@ export const pageQuery = graphql`
             upcomingGameHeading
             noUpcomingGameText
             mapsNote
+            slider {
+              title
+              gallery {
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 2048, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+                imageAlt
+                name
+                url
+              }
+            }
+            cooperation {
+              title
+              gallery {
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 2048, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+                imageAlt
+                name
+              }
+            }
             callToActions {
               firstCTA {
                 heading
