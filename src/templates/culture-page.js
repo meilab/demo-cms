@@ -9,7 +9,7 @@ import HTMLContent from "../components/Content";
 import "../styles/about-page.scss";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
-export const AboutPageTemplate = (props) => {
+export const CulturePageTemplate = (props) => {
   const { page } = props;
 
   return (
@@ -38,19 +38,6 @@ export const AboutPageTemplate = (props) => {
           )}
         </section>
       </div>
-      <section className="section  developerGroups  about-developerGroups">
-        <div className="container">
-          <ReactMarkdown source={page.frontmatter.developerGroups} />
-        </div>
-      </section>
-      <section className="about-header">
-        <div className="about-titleWrapper">
-          <h1 className="about-title">{page.frontmatter.orgImage.name}</h1>
-        </div>
-        <div className="about-imageWrapper">
-          <PreviewCompatibleImage imageInfo={page.frontmatter.orgImage} />
-        </div>
-      </section>
       <section className="section  purpose  about-purpose">
         <div className="container  purpose-container">
           <h2 className="purpose-title">{page.frontmatter.purpose.title}</h2>
@@ -63,11 +50,6 @@ export const AboutPageTemplate = (props) => {
                 >
                   <PreviewCompatibleImage imageInfo={galleryImage} />
                 </div>
-                {/* <img
-                  className="purpose-listItemImage"
-                  src={galleryImage.image}
-                  alt={galleryImage.imageAlt}
-                /> */}
                 <span className="purpose-listItemName">
                   {galleryImage.name}
                 </span>
@@ -76,40 +58,12 @@ export const AboutPageTemplate = (props) => {
           </ul>
         </div>
       </section>
-      <section className="section">
-        <h2 className="purpose-title">
-          {page.frontmatter.companyMember.title}
-        </h2>
-        <ul className="about-gallery  galleryList">
-          {page.frontmatter.companyMember.gallery.map((galleryImage, index) => (
-            <li key={index} className="galleryList-item">
-              <PreviewCompatibleImage imageInfo={galleryImage} />
-              {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
-            </li>
-          ))}
-        </ul>
-      </section>
-      <section className="section">
-        <h2 className="purpose-title">
-          {page.frontmatter.personalMember.title}
-        </h2>
-        <ul className="about-gallery  galleryList">
-          {page.frontmatter.personalMember.gallery.map(
-            (galleryImage, index) => (
-              <li key={index} className="galleryList-item">
-                <PreviewCompatibleImage imageInfo={galleryImage} />
-                {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
-              </li>
-            ),
-          )}
-        </ul>
-      </section>
     </article>
   );
 };
 
-const AboutPage = ({ data }) => {
-  const { markdownRemark: page, footerData, navbarData } = data;
+const CulturePage = ({ data }) => {
+  const { markdownRemark: page } = data;
   const {
     frontmatter: {
       seo: { title: seoTitle, description: seoDescription, browserTitle },
@@ -123,19 +77,19 @@ const AboutPage = ({ data }) => {
         <meta name="description" content={seoDescription} />
         <title>{browserTitle}</title>
       </Helmet>
-      <AboutPageTemplate page={{ ...page, bodyIsMarkdown: true }} />
+      <CulturePageTemplate page={{ ...page, bodyIsMarkdown: false }} />
     </Layout>
   );
 };
 
-AboutPage.propTypes = {
+CulturePage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AboutPage;
+export default CulturePage;
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const culturePageQuery = graphql`
+  query CulturePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -150,47 +104,7 @@ export const aboutPageQuery = graphql`
           }
           imageAlt
         }
-        orgImage {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          imageAlt
-          name
-        }
-        developerGroups
         purpose {
-          title
-          gallery {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            imageAlt
-            name
-          }
-        }
-        companyMember {
-          title
-          gallery {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            imageAlt
-            name
-          }
-        }
-        personalMember {
           title
           gallery {
             image {
