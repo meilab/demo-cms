@@ -2,6 +2,9 @@
 templateKey: past-game
 title: 北美瑜伽邀请赛
 date: 2060-11-09T23:00:00.000Z
+featuredpost: false
+featuredimage: /img/yoga-game.jpg
+description: 瑜伽讲究融会贯通，贵在坚持。
 presenters:
   - image: /img/yoga-game.jpg
     links:

@@ -11,22 +11,30 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const CulturePageTemplate = (props) => {
   const { page } = props;
+  // const str = page.frontmatter.mainImage.image;
+  const str = '/img/blog-index.jpg';
 
   return (
     <article className="about">
       <div className="about-container  container">
-        <section className="about-header">
-          <div className="about-titleWrapper">
-            <h1 className="about-title">{page.frontmatter.title}</h1>
-          </div>
-          <div className="about-imageWrapper">
-            <PreviewCompatibleImage imageInfo={page.frontmatter.mainImage} />
-            {/* <img
-              src={page.frontmatter.mainImage.image}
-              alt={page.frontmatter.mainImage.imageAlt}
-            /> */}
-          </div>
-        </section>
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url(${str})`,
+          }}
+        >
+          <h1
+            className="has-text-weight-bold is-size-1"
+            style={{
+              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
+              backgroundColor: "#f40",
+              color: "white",
+              padding: "1rem",
+            }}
+          >
+            {page.frontmatter.title}
+          </h1>
+        </div>
         <section className="section">
           <h2 className="purpose-title">{"协会介绍"}</h2>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,

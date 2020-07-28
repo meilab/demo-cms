@@ -15,18 +15,32 @@ export const AboutPageTemplate = (props) => {
   return (
     <article className="about">
       <div className="about-container  container">
-        <section className="about-header">
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url('/img/blog-index.jpg')`,
+          }}
+        >
+          <h1
+            className="has-text-weight-bold is-size-1"
+            style={{
+              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
+              backgroundColor: "#f40",
+              color: "white",
+              padding: "1rem",
+            }}
+          >
+            {page.frontmatter.title}
+          </h1>
+        </div>
+        {/* <section className="about-header">
           <div className="about-titleWrapper">
             <h1 className="about-title">{page.frontmatter.title}</h1>
           </div>
           <div className="about-imageWrapper">
             <PreviewCompatibleImage imageInfo={page.frontmatter.mainImage} />
-            {/* <img
-              src={page.frontmatter.mainImage.image}
-              alt={page.frontmatter.mainImage.imageAlt}
-            /> */}
           </div>
-        </section>
+        </section> */}
         <section className="section">
           <h2 className="purpose-title">{"协会介绍"}</h2>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,
@@ -38,17 +52,18 @@ export const AboutPageTemplate = (props) => {
           )}
         </section>
       </div>
-      <section className="section  developerGroups  about-developerGroups">
+      {/* <section className="section  developerGroups  about-developerGroups">
         <div className="container">
           <ReactMarkdown source={page.frontmatter.developerGroups} />
         </div>
-      </section>
-      <section className="about-header">
-        <div className="about-titleWrapper">
-          <h1 className="about-title">{page.frontmatter.orgImage.name}</h1>
-        </div>
-        <div className="about-imageWrapper">
-          <PreviewCompatibleImage imageInfo={page.frontmatter.orgImage} />
+      </section> */}
+      <section className="section  purpose  about-purpose">
+        <div className="container  purpose-container">
+          <h2 className="purpose-title">{page.frontmatter.orgImage.name}</h2>
+          {/* <div className="about-imageWrapper"> */}
+          <div>
+            <PreviewCompatibleImage imageInfo={page.frontmatter.orgImage} />
+          </div>
         </div>
       </section>
       <section className="section  purpose  about-purpose">
@@ -63,11 +78,6 @@ export const AboutPageTemplate = (props) => {
                 >
                   <PreviewCompatibleImage imageInfo={galleryImage} />
                 </div>
-                {/* <img
-                  className="purpose-listItemImage"
-                  src={galleryImage.image}
-                  alt={galleryImage.imageAlt}
-                /> */}
                 <span className="purpose-listItemName">
                   {galleryImage.name}
                 </span>
@@ -84,7 +94,6 @@ export const AboutPageTemplate = (props) => {
           {page.frontmatter.companyMember.gallery.map((galleryImage, index) => (
             <li key={index} className="galleryList-item">
               <PreviewCompatibleImage imageInfo={galleryImage} />
-              {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
             </li>
           ))}
         </ul>

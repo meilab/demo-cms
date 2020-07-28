@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Helmet from "react-helmet";
@@ -12,13 +13,37 @@ import "../styles/home.scss";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import TrainingRoll from "../components/TrainingRoll";
 import NotificationsRoll from "../components/NotificationsRoll";
+import NewsRoll from "../components/NewsRoll";
+import GameRoll from "../components/GameRoll";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const HomePageTemplate = ({ home, upcomingGame = null }) => {
+  const [curTab, setCurTab] = useState("1");
+
   const presenters = upcomingGame && upcomingGame.presenters;
   const latitude =
     upcomingGame && parseFloat(upcomingGame.location.mapsLatitude);
   const longitude =
     upcomingGame && parseFloat(upcomingGame.location.mapsLongitude);
+
+  let settings = {
+    dots: true,
+    arrows: true,
+    autoplay: true,
+    infinite: true,
+    speed: 200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  const renderInfo = () => {
+    if (curTab === "1") {
+      return <NewsRoll />;
+    } else {
+      return <NotificationsRoll />;
+    }
+  };
   return (
     <>
       <section className="header">
@@ -44,7 +69,55 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
           </h3>
         </div>
       </section>
-      <section className="upcomingGame  section">
+      <section className="notificationsAndNews section ">
+        <div className="container columns">
+          <Slider
+            {...settings}
+            className="is-parent column is-7 notificationsAndNews-container container"
+          >
+            {home.carousel.gallery.map((galleryImage, index) => (
+              <div key={index} className={`item-${index}`}>
+                <PreviewCompatibleImage imageInfo={galleryImage} />
+              </div>
+            ))}
+          </Slider>
+          <div className="column is-5 notificationsAndNews-container container">
+            <div className="column is-12">
+              <div className="news-title-container">
+                <Link className="subtitle is-5 news-title-item" to="/news">
+                  <h3
+                    className={`notificationsAndNews-pointer-title is-size-2 ${
+                      curTab === "1" ? "active" : ""
+                    }`}
+                    onMouseEnter={() => {
+                      setCurTab("1");
+                    }}
+                  >
+                    资讯
+                  </h3>
+                </Link>
+                <Link
+                  className="subtitle is-5 news-title-item"
+                  to="/notifications"
+                >
+                  <h3
+                    className={`notificationsAndNews-pointer-title is-size-2 ${
+                      curTab === "2" ? "active" : ""
+                    }`}
+                    onMouseEnter={() => {
+                      setCurTab("2");
+                    }}
+                  >
+                    通告
+                  </h3>
+                </Link>
+              </div>
+              {renderInfo()}
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="upcomingGame  section">
         <div className="upcomingGame-container  container">
           <h2 className="upcomingGame-title">{home.upcomingGameHeading}</h2>
           {upcomingGame ? (
@@ -86,7 +159,7 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                   ))}
                 </div>
               )}
-              {/* <p className="upcomingGame-mapNote">{home.mapsNote}</p>
+              <p className="upcomingGame-mapNote">{home.mapsNote}</p>
               <div className="upcomingGame-mapWrapper">
                 <Map
                   isMarkerShown
@@ -98,14 +171,14 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                   latitude={latitude}
                   longitude={longitude}
                 />
-              </div> */}
+              </div>
             </>
           ) : (
             <p className="upcomingGame-detail">{home.noUpcomingGameText}</p>
           )}
         </div>
-      </section>
-      <section className="ctaBlock">
+      </section> */}
+      {/* <section className="ctaBlock">
         <CustomLink
           linkType={home.callToActions.firstCTA.linkType}
           linkURL={home.callToActions.firstCTA.linkURL}
@@ -134,14 +207,14 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             </p>
           </div>
         </CustomLink>
-      </section>
-      <section className="notificationsAndTrainings  section">
-        <div className="upcomingGame-container  container">
+      </section> */}
+      <section className="games section">
+        <div className="game-container columns container">
           <div className="column is-12">
-            <h3 className="notificationsAndTrainings-title has-text-weight-semibold is-size-2">
+            <h3 className="games-title has-text-weight-semibold is-size-2">
               赛事活动
             </h3>
-            <NotificationsRoll />
+            <GameRoll />
             <div className="column is-12 has-text-centered">
               <Link className="btn" to="/notifications">
                 更多赛事
@@ -150,10 +223,10 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
           </div>
         </div>
       </section>
-      <section className="notificationsAndTrainings  section">
-        <div className="upcomingGame-container  container">
+      <section className="trainings  section">
+        <div className="training-container columns container">
           <div className="column is-12">
-            <h3 className="notificationsAndTrainings-title has-text-weight-semibold is-size-2">
+            <h3 className="trainings-title has-text-weight-semibold is-size-2">
               培训认证
             </h3>
             <TrainingRoll />
@@ -165,16 +238,17 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
           </div>
         </div>
       </section>
-      <section className="section">
-        <h2 className="purpose-title">{home.cooperation.title}</h2>
-        <ul className="about-gallery  galleryList">
-          {home.cooperation.gallery.map((galleryImage, index) => (
-            <li key={index} className="galleryList-item">
-              <PreviewCompatibleImage imageInfo={galleryImage} />
-              {/* <img src={galleryImage.image} alt={galleryImage.imageAlt} /> */}
-            </li>
-          ))}
-        </ul>
+      <section className="cooperation section">
+        <h2 className="cooperation-title">{home.cooperation.title}</h2>
+        <div className="cooperation-container">
+          <div className="cooperation-list">
+            {home.cooperation.gallery.map((galleryImage, index) => (
+              <div key={index} className="cooperation-list-item">
+                <PreviewCompatibleImage imageInfo={galleryImage} />
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
     </>
   );
@@ -280,7 +354,7 @@ export const pageQuery = graphql`
             upcomingGameHeading
             noUpcomingGameText
             mapsNote
-            slider {
+            carousel {
               title
               gallery {
                 image {

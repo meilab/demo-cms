@@ -2,7 +2,7 @@
 templateKey: "notifications-post"
 title: 瑜伽教练组赴印度学习
 date: 2017-01-04T15:04:10.000Z
-featuredpost: true
+featuredpost: false
 featuredimage: /img/yoga-game.jpg
 description: >-
   我们很高兴组织999名瑜伽爱好者赴印度进修，体验瑜伽。
