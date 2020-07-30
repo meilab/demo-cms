@@ -6,7 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const NotificationsPostTemplate = ({
+export const NewsPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -46,7 +46,7 @@ export const NotificationsPostTemplate = ({
   );
 };
 
-NotificationsPostTemplate.propTypes = {
+NewsPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -59,7 +59,7 @@ const NotificationsPost = ({ data }) => {
 
   return (
     <Layout>
-      <NotificationsPostTemplate
+      <NewsPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
