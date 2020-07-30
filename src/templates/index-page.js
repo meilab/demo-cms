@@ -21,7 +21,7 @@ import "slick-carousel/slick/slick-theme.css";
 export const HomePageTemplate = ({ home, upcomingGame = null }) => {
   const [curTab, setCurTab] = useState("1");
 
-  const presenters = upcomingGame && upcomingGame.presenters;
+  const events = upcomingGame && upcomingGame.events;
   const latitude =
     upcomingGame && parseFloat(upcomingGame.location.mapsLatitude);
   const longitude =
@@ -130,9 +130,9 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                 <span className="upcomingGame-detailLabel">Location: </span>
                 {upcomingGame.location.name}
               </p>
-              {presenters.length > 0 && (
-                <div className="upcomingGame-presenters">
-                  {presenters.map((presenter) => (
+              {events.length > 0 && (
+                <div className="upcomingGame-events">
+                  {events.map((presenter) => (
                     <div
                       className="upcomingGame-presenter"
                       key={presenter.text}
@@ -150,7 +150,7 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
                         {presenter.name}
                       </span>
                       <span className="upcomingGame-presenterPresentationTitle">
-                        {presenter.presentationTitle}
+                        {presenter.eventDescription}
                       </span>
                       <p className="upcomingGame-presenterDescription">
                         {presenter.text}
@@ -301,9 +301,7 @@ export default HomePage;
 export const pageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
-      filter: {
-        frontmatter: { presenters: { elemMatch: { text: { ne: null } } } }
-      }
+      filter: { frontmatter: { events: { elemMatch: { text: { ne: null } } } } }
       sort: { order: DESC, fields: frontmatter___date }
     ) {
       edges {
@@ -312,7 +310,7 @@ export const pageQuery = graphql`
             title
             formattedDate: date(formatString: "MMMM Do YYYY @ h:mm A")
             rawDate: date
-            presenters {
+            events {
               name
               image {
                 childImageSharp {
@@ -322,7 +320,7 @@ export const pageQuery = graphql`
                 }
               }
               text
-              presentationTitle
+              eventDescription
             }
             location {
               mapsLatitude
@@ -351,9 +349,6 @@ export const pageQuery = graphql`
               }
               imageAlt
             }
-            upcomingGameHeading
-            noUpcomingGameText
-            mapsNote
             carousel {
               title
               gallery {
@@ -381,20 +376,6 @@ export const pageQuery = graphql`
                 }
                 imageAlt
                 name
-              }
-            }
-            callToActions {
-              firstCTA {
-                heading
-                subHeading
-                linkType
-                linkURL
-              }
-              secondCTA {
-                heading
-                subHeading
-                linkType
-                linkURL
               }
             }
             seo {

@@ -5,13 +5,13 @@ date: 2018-08-14T23:00:00.000Z
 featuredpost: false
 featuredimage: /img/yoga-game.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
-presenters:
+events:
   - image: /img/yoga-game.jpg
     links:
       - linkText: 点我走起
         linkURL: "https://google.com/"
     name: 瑜伽项目一
-    presentationTitle: 项目一简介
+    eventDescription: 项目一简介
     text: >-
       瑜伽武术是瑜伽和武术的精髓相互融合动中有静，柔中带刚。适合所有人进行练习，能够强身健体，增强免疫力。
 
@@ -20,7 +20,7 @@ presenters:
       - linkText: 联系我
         linkURL: "https://baidu.com/"
     name: 瑜伽项目二
-    presentationTitle: 项目二简介
+    eventDescription: 项目二简介
     text: >-
       更多的了解瑜伽项目二.
 location:

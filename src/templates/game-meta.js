@@ -28,8 +28,8 @@ class GameMetaInfoTemplate extends Component {
             {this.props.game.location.name}
           </p>
         </div>
-        <div className="game-presenters">
-          {this.props.game.presenters.map((presenter) => (
+        <div className="game-events">
+          {this.props.game.events.map((presenter) => (
             <div className="game-presenter" key={presenter.name}>
               <div className="game-presenterImageContainer">
                 <div
@@ -41,9 +41,9 @@ class GameMetaInfoTemplate extends Component {
                 <span className="game-presenterName">{presenter.name}</span>
               </div>
               <div className="game-presenterInfo">
-                {presenter.presentationTitle && (
+                {presenter.eventDescription && (
                   <h3 className="game-presenterTitle">
-                    {presenter.presentationTitle}
+                    {presenter.eventDescription}
                   </h3>
                 )}
                 <p className="game-presenterText">{presenter.text}</p>
@@ -70,7 +70,7 @@ GameMetaInfoTemplate.propTypes = {
   game: PropTypes.shape({
     title: PropTypes.string,
     name: PropTypes.string,
-    presenters: PropTypes.array,
+    events: PropTypes.array,
   }),
 };
 

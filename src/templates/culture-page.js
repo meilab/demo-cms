@@ -6,17 +6,17 @@ import Helmet from "react-helmet";
 
 import Layout from "../components/Layout";
 import HTMLContent from "../components/Content";
-import "../styles/about-page.scss";
+import "../styles/culture-page.scss";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const CulturePageTemplate = (props) => {
   const { page } = props;
   // const str = page.frontmatter.mainImage.image;
-  const str = '/img/blog-index.jpg';
+  const str = "/img/blog-index.jpg";
 
   return (
-    <article className="about">
-      <div className="about-container  container">
+    <article className="culture-page">
+      <div className="culture-page-container  container">
         <div
           className="full-width-image-container margin-top-0"
           style={{
@@ -36,29 +36,29 @@ export const CulturePageTemplate = (props) => {
           </h1>
         </div>
         <section className="section">
-          <h2 className="purpose-title">{"协会介绍"}</h2>
+          <h2 className="culture-title">{"瑜伽文化介绍"}</h2>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,
               so we must use the ReactMarkdown component to parse the markdown in that case  */}
           {page.bodyIsMarkdown ? (
-            <ReactMarkdown className="about-description" source={page.html} />
+            <ReactMarkdown className="culture-description" source={page.html} />
           ) : (
-            <HTMLContent className="about-description" content={page.html} />
+            <HTMLContent className="culture-description" content={page.html} />
           )}
         </section>
       </div>
-      <section className="section  purpose  about-purpose">
-        <div className="container  purpose-container">
-          <h2 className="purpose-title">{page.frontmatter.purpose.title}</h2>
-          <ul className="purpose-list">
+      <section className="section culture culture-culture">
+        <div className="container culture-container">
+          <h2 className="culture-title">{page.frontmatter.purpose.title}</h2>
+          <ul className="culture-list">
             {page.frontmatter.purpose.gallery.map((galleryImage, index) => (
-              <li key={index} className="purpose-listItem">
+              <li key={index} className="culture-listItem">
                 <div
                   style={{ width: "300px", height: "auto" }}
-                  className="purpose-listItemImage"
+                  className="culture-listItemImage"
                 >
                   <PreviewCompatibleImage imageInfo={galleryImage} />
                 </div>
-                <span className="purpose-listItemName">
+                <span className="culture-listItemName">
                   {galleryImage.name}
                 </span>
               </li>

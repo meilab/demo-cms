@@ -1,4 +1,4 @@
-import React, { Component, Fragment, useState, useEffect }  from "react";
+import React, { Component, Fragment, useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
@@ -45,7 +45,7 @@ export const PastGamesPageTemplate = ({
     setFilteredData(filteredData);
     setQuery(newQuery);
   };
-  
+
   return (
     <article className="pastGames">
       <div className="container  pastGames-container">
@@ -74,9 +74,7 @@ export const PastGamesPageTemplate = ({
                   />
                 </p>
                 <p className="control">
-                  <button className="button">
-                    搜索
-                  </button>
+                  <button className="button">搜索</button>
                 </p>
               </div>
             </div>
@@ -152,9 +150,7 @@ export const pastGamesPageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {
-        frontmatter: { presenters: { elemMatch: { text: { ne: null } } } }
-      }
+      filter: { frontmatter: { events: { elemMatch: { text: { ne: null } } } } }
       sort: { order: DESC, fields: frontmatter___date }
     ) {
       edges {
@@ -166,7 +162,7 @@ export const pastGamesPageQuery = graphql`
             title
             formattedDate: date(formatString: "MMMM Do YYYY @ h:mm A")
             rawDate: date
-            presenters {
+            events {
               name
               image {
                 childImageSharp {
@@ -176,7 +172,7 @@ export const pastGamesPageQuery = graphql`
                 }
               }
               text
-              presentationTitle
+              eventDescription
               links {
                 linkText
                 linkURL
