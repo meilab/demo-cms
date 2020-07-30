@@ -12,9 +12,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "game"
+  - name: "games"
     label: "比赛"
-    folder: "src/pages/game"
+    folder: "src/pages/games"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
