@@ -34,29 +34,29 @@ collections:
         }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
-      # - {
-      #     label: "项目",
-      #     name: "events",
-      #     widget: "list",
-      #     fields:
-      #       [
-      #         { label: "图片", name: "image", widget: "image" },
-      #         { label: "链接", name: "links",  widget: "object",
-      #           fields:
-      #             [
-      #               { label: "链接名称", name: "linkText", widget: "string" },
-      #               { label: "链接地址", name: "linkURL", widget: "string" },
-      #             ]
-      #         },
-      #         { label: "项目名称", name: "name", widget: "string" },
-      #         {
-      #           label: "项目简介",
-      #           name: "eventDescription",
-      #           widget: "string",
-      #         },
-      #         { label: "详细描述", name: "text", widget: "string" },
-      #       ],
-      #   },
+      - {
+          label: "项目",
+          name: "events",
+          widget: "list",
+          fields:
+            [
+              { label: "图片", name: "image", widget: "image" },
+              { label: "链接", name: "links",  widget: "object",
+                fields:
+                  [
+                    { label: "链接名称", name: "linkText", widget: "string" },
+                    { label: "链接地址", name: "linkURL", widget: "string" },
+                  ]
+              },
+              { label: "项目名称", name: "name", widget: "string" },
+              {
+                label: "项目简介",
+                name: "eventDescription",
+                widget: "string",
+              },
+              { label: "详细描述", name: "text", widget: "string" },
+            ],
+        },
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
