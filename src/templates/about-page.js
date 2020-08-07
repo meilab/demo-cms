@@ -46,19 +46,21 @@ export const AboutPageTemplate = (props) => {
           <div className="intro-container">
             {/* The page.html is actually markdown when viewing the page from the netlify CMS,
                 so we must use the ReactMarkdown component to parse the markdown in that case  */}
-            {page.bodyIsMarkdown ? (
-              <ReactMarkdown className="about-description" source={page.html} />
+            {/* {page.bodyIsMarkdown ? (
+              <ReactMarkdown
+                className="about-description"
+                source={page.frontmatter.description}
+              />
             ) : (
-              <HTMLContent className="about-description" content={page.html} />
-            )}
+              <HTMLContent
+                className="about-description"
+                content={page.frontmatter.description}
+              />
+            )} */}
+            <ReactMarkdown source={page.frontmatter.description} />
           </div>
         </section>
       </div>
-      {/* <section className="section  developerGroups  about-developerGroups">
-        <div className="container">
-          <ReactMarkdown source={page.frontmatter.developerGroups} />
-        </div>
-      </section> */}
       <section className="org section">
         <div className="org-container">
           <h2 className="org-title">{page.frontmatter.orgImage.name}</h2>
@@ -172,7 +174,7 @@ export const aboutPageQuery = graphql`
           imageAlt
           name
         }
-        developerGroups
+        description
         purpose {
           title
           gallery {

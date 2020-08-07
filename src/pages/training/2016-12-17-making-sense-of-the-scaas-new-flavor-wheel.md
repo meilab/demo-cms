@@ -3,7 +3,7 @@ templateKey: training-post
 title: 初心不改，瑜伽不断
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/yoga-life.jpg
+featuredimage: /img/yoga-train1.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 tags:
   - 瑜伽

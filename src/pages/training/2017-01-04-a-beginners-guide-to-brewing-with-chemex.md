@@ -3,7 +3,7 @@ templateKey: training-post
 title: 瑜伽与生活
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/yoga-life.jpg
+featuredimage: /img/yoga-train2.jpg
 description: 瑜伽是一种生活方式，让身心与大自然融合。
 tags:
   - 瑜伽

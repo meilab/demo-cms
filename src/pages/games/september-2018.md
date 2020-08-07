@@ -6,7 +6,7 @@ featuredpost: false
 featuredimage: /img/yoga-game.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 events:
-  - image: /img/yoga-game.jpg
+  - image: /img/yoga-game2.jpg
     links:
       - linkText: 点我走起
         linkURL: "https://google.com/"

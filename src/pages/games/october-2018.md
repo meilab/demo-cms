@@ -3,7 +3,7 @@ templateKey: past-game
 title: 瑜伽武术融合冠军赛
 date: 2018-10-09T23:00:00.000Z
 featuredpost: false
-featuredimage: /img/yoga-game.jpg
+featuredimage: /img/yoga-game1.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 events:
   - image: /img/yoga-game.jpg

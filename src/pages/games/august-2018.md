@@ -3,7 +3,7 @@ templateKey: past-game
 title: 瑜伽陕西大赛
 date: 2018-08-14T23:00:00.000Z
 featuredpost: false
-featuredimage: /img/yoga-game.jpg
+featuredimage: /img/yoga-train4.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 events:
   - image: /img/yoga-game.jpg
