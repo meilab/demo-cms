@@ -22,34 +22,34 @@ carousel:
 cooperation:
   title: 战略合作
   gallery:
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-game.jpg
+    - image: /img/partner.png
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
 seo:
