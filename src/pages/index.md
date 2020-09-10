@@ -7,61 +7,49 @@ title: 遇到更多的瑜伽爱好者共同切磋共同成长
 carousel:
   title: 重要事件
   gallery:
-    - image: /img/yoga-carousel1.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
       url: www.baidu.com
-    - image: /img/yoga-carousel2.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
       url: www.baidu.com
-    - image: /img/yoga-carousel3.jpg
-      imageAlt: Wakanda developers working together at a table.
-      name: 郭飙
-      url: www.baidu.com
-    - image: /img/yoga-carousel4.jpg
-      imageAlt: Wakanda developers working together at a table.
-      name: 郭飙
-      url: www.baidu.com
-    - image: /img/yoga-carousel5.jpg
-      imageAlt: Wakanda developers working together at a table.
-      name: 郭飙
-      url: www.baidu.com
-    - image: /img/yoga-carousel6.png
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
       url: www.baidu.com
 cooperation:
   title: 战略合作
   gallery:
-    - image: /img/neonbrand-509131-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/annie-spratt-608001-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/annie-spratt-608001-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/annie-spratt-608001-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/neonbrand-509131-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+    - image: /img/yoga-game.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
 seo:

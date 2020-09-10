@@ -3,14 +3,14 @@ templateKey: training-post
 title: 初心不改，瑜伽不断
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/yoga-train1.jpg
+featuredimage: /img/yoga-game.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 tags:
   - 瑜伽
   - 坚持
 ---
 
-![](/img/yoga-life.jpg)
+![](/img/yoga-game.jpg)
 
 这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 
