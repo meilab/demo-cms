@@ -53,7 +53,7 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             maxWidth: "100%",
             backgroundSize: "cover",
             backgroundPosition: "bottom",
-            backgroundImage: `url('/img/yoga-game.jpg')`,
+            backgroundImage: `url('http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg')`,
           }}
         >
           {home.headerImage && (
