@@ -12,7 +12,7 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 export const CulturePageTemplate = (props) => {
   const { page } = props;
   // const str = page.frontmatter.mainImage.image;
-  const str = "/img/blog-index.jpg";
+  const str = "http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg";
 
   return (
     <article className="culture-page">
