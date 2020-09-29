@@ -11,12 +11,8 @@ function NewsRoll({ data }) {
       {posts &&
         posts.map(({ node: post }) => (
           <Link className="news-item" key={post.id} to={post.fields.slug}>
-            <p className="news-title">
-              {post.frontmatter.title}
-            </p>
-            <p className="news-date">
-              {post.frontmatter.date}
-            </p>
+            <p className="news-title">{post.frontmatter.title}</p>
+            <p className="news-date">{post.frontmatter.date}</p>
           </Link>
         ))}
     </div>
@@ -52,13 +48,7 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 description
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                featuredimage
               }
             }
           }

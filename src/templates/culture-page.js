@@ -103,25 +103,13 @@ export const culturePageQuery = graphql`
       frontmatter {
         title
         mainImage {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image
           imageAlt
         }
         purpose {
           title
           gallery {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            image
             imageAlt
             name
           }

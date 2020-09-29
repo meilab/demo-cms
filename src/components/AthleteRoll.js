@@ -31,7 +31,10 @@ function AthleteRoll({ data }) {
               // contains the newQuery string
               description.toLowerCase().includes(newQuery.toLowerCase()) ||
               name.toLowerCase().includes(newQuery.toLowerCase()) ||
-              number.toString().toLowerCase().includes(newQuery.toLowerCase()) ||
+              number
+                .toString()
+                .toLowerCase()
+                .includes(newQuery.toLowerCase()) ||
               (tags &&
                 tags.join("").toLowerCase().includes(newQuery.toLowerCase()))
             );
@@ -62,9 +65,7 @@ function AthleteRoll({ data }) {
                 />
               </p>
               <p className="control">
-                <button className="button">
-                  搜索
-                </button>
+                <button className="button">搜索</button>
               </p>
             </div>
           </div>
@@ -150,13 +151,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                featuredimage
               }
             }
           }

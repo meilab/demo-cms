@@ -2,7 +2,7 @@
 templateKey: coming-page
 title: 装修中，敬请期待
 mainImage:
-  image: /img/teemu-paananen-376238-unsplash.jpg
+  image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
   imageAlt: 瑜伽走起
 
 seo:

@@ -154,23 +154,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         mainImage {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image
           imageAlt
         }
         orgImage {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image
           imageAlt
           name
         }
@@ -178,13 +166,7 @@ export const aboutPageQuery = graphql`
         purpose {
           title
           gallery {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            image
             imageAlt
             name
           }
@@ -192,13 +174,7 @@ export const aboutPageQuery = graphql`
         companyMember {
           title
           gallery {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            image
             imageAlt
             name
           }
@@ -206,13 +182,7 @@ export const aboutPageQuery = graphql`
         personalMember {
           title
           gallery {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            image
             imageAlt
             name
           }

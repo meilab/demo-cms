@@ -312,13 +312,7 @@ export const pageQuery = graphql`
             rawDate: date
             events {
               name
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+              image
               text
               eventDescription
             }
@@ -352,13 +346,7 @@ export const pageQuery = graphql`
             carousel {
               title
               gallery {
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 2048, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                image
                 imageAlt
                 name
                 url

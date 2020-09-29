@@ -3,10 +3,10 @@ templateKey: past-game
 title: 瑜伽武术融合冠军赛
 date: 2018-10-09T23:00:00.000Z
 featuredpost: false
-featuredimage: /img/yoga-game.jpg
+featuredimage: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
 description: 瑜伽讲究融会贯通，贵在坚持。
 events:
-  - image: /img/yoga-game.jpg
+  - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
     links:
       - linkText: 点我走起
         linkURL: "https://google.com/"
@@ -14,7 +14,7 @@ events:
     eventDescription: 项目一简介
     text: >-
       瑜伽武术是瑜伽和武术的精髓相互融合动中有静，柔中带刚。适合所有人进行练习，能够强身健体，增强免疫力。
-  - image: /img/yoga-life.jpg
+  - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
     links:
       - linkText: 联系我
         linkURL: "https://baidu.com/"
@@ -29,7 +29,7 @@ location:
   name: 朱雀体育场
 ---
 
-![](/img/yoga-game.jpg)
+![](http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg)
 
 2020 年 6 月在陕西朱雀体育场举办第一节陕西省瑜伽大赛
 

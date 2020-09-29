@@ -164,13 +164,7 @@ export const pastGamesPageQuery = graphql`
             rawDate: date
             events {
               name
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+              image
               text
               eventDescription
               links {

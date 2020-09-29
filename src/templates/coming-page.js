@@ -65,13 +65,7 @@ export const comingPageQuery = graphql`
       frontmatter {
         title
         mainImage {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image
           imageAlt
         }
         seo {

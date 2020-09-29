@@ -4,7 +4,7 @@ name: 韩梅梅
 number: 1131
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/guobiao.jpg
+featuredimage: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
 description: 陕西省宝鸡市人，热爱运动.
 tags:
   - brewing

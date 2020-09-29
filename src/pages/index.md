@@ -7,15 +7,15 @@ title: 遇到更多的瑜伽爱好者共同切磋共同成长
 carousel:
   title: 重要事件
   gallery:
-    - image: /img/yoga-game.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
       url: www.baidu.com
-    - image: /img/yoga-game.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
       url: www.baidu.com
-    - image: /img/yoga-game.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
       url: www.baidu.com

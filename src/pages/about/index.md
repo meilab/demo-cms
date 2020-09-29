@@ -2,31 +2,31 @@
 templateKey: about-page
 title: 陕西省健身瑜伽协会
 mainImage:
-  image: /img/teemu-paananen-376238-unsplash.jpg
+  image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
   imageAlt: 瑜伽走起
 orgImage:
-  image: /img/yoga-org1.jpg
+  image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
   imageAlt: 组织架构图
   name: 组织架构图
 companyMember:
   title: 单位会员
   gallery:
-    - image: /img/neonbrand-509131-unsplash.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/jakob-dalbjorn-730178-unsplash.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/annie-spratt-608001-unsplash.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
 personalMember:
   title: 个人会员
   gallery:
-    - image: /img/yoga-purpose4.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/yoga-purpose5.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
 description: |-
@@ -38,14 +38,14 @@ description: |-
 purpose:
   title: 协会宗旨
   gallery:
-    - image: /img/yoga-purpose1.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: 郭飙
       name: 郭飙
-    - image: /img/yoga-purpose2.jpg
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: 郭飙
       name: 郭飙
     - name: 郭飙
-      image: /img/yoga-purpose3.jpg
+      image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: 郭飙
 seo:
   browserTitle: 简介 | 瑜伽协会

@@ -4,7 +4,7 @@ name: 高烦
 number: 1144
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
-featuredimage: /img/guobiao.jpg
+featuredimage: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
 description: 山东泰安人，热爱运动
 tags:
   - jamaica

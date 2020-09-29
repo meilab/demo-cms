@@ -3,7 +3,7 @@ templateKey: "training-post"
 title: 爱上瑜伽，爱上未来的自己
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
-featuredimage: /img/yoga-game.jpg
+featuredimage: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
 description: >-
   今天瑜伽一小时，健康生活一辈子
 tags:

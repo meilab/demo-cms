@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 function TrainingRoll({ data }) {
-  const { edges: posts } = data.allMarkdownRemark
+  const { edges: posts } = data.allMarkdownRemark;
 
   return (
     <div className="columns is-multiline">
@@ -17,7 +17,7 @@ function TrainingRoll({ data }) {
             >
               <article
                 className={`training-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                  post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
                 {post.frontmatter.featuredimage ? (
@@ -31,18 +31,18 @@ function TrainingRoll({ data }) {
                   </div>
                 ) : null}
                 <p className="post-meta">
-                    {post.frontmatter.title}
-                    {/* <span> &bull; </span> */}
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.description}
-                    </span>
+                  {post.frontmatter.title}
+                  {/* <span> &bull; </span> */}
+                  <span className="subtitle is-size-5 is-block">
+                    {post.frontmatter.description}
+                  </span>
                 </p>
               </article>
             </Link>
           </div>
         ))}
     </div>
-  )
+  );
 }
 
 TrainingRoll.propTypes = {
@@ -51,7 +51,7 @@ TrainingRoll.propTypes = {
       edges: PropTypes.array,
     }),
   }),
-}
+};
 
 export default () => (
   <StaticQuery
@@ -74,13 +74,7 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 description
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                featuredimage
               }
             }
           }
@@ -89,4 +83,4 @@ export default () => (
     `}
     render={(data, count) => <TrainingRoll data={data} count={count} />}
   />
-)
+);

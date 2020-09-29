@@ -3,7 +3,7 @@ templateKey: "notifications-post"
 title: 瑜伽教练组赴印度学习
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/yoga-game.jpg
+featuredimage: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
 description: >-
   我们很高兴组织999名瑜伽爱好者赴印度进修，体验瑜伽。
 tags:
@@ -12,7 +12,7 @@ tags:
   - 印度
 ---
 
-![](/img/yoga-game.jpg)
+![](http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg)
 
 这几天，陕西省篮协开了场会员大会，省内各分会的代表云集古城西安。中国篮协副主席、陕西省篮协主席王立彬开讲了一个小时。讲了这多话，内容一定很多。是的，省篮协一般不开会，一开会就有大事要发生。2018 年，陕西篮球正在干和将要干的事特别多，精挑细选出几件事告诉你。
 
@@ -27,7 +27,7 @@ tags:
 - 顺利保障
 - 安全第一
 
-![](/img/yoga-game.jpg)
+![](http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg)
 
 今年，省篮协还将组织档次更高的国际性赛事。王立彬的想法是，未来将组织海、陆丝绸之路沿线国家和地区国际性篮球赛。如果这一构想能够成真，丝路国际篮球赛将横跨欧亚非三大洲，规模仅次于世界杯！
 
