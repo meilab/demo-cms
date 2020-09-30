@@ -81,9 +81,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/coming">
                 下载专区
               </Link>
-              {/* <Link className="navbar-item" to="/products">
-                产品
-              </Link> */}
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}

@@ -355,13 +355,7 @@ export const pageQuery = graphql`
             cooperation {
               title
               gallery {
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 2048, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                image
                 imageAlt
                 name
               }

@@ -22,34 +22,34 @@ carousel:
 cooperation:
   title: 战略合作
   gallery:
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda developers working together at a table.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
-    - image: /img/partner.png
+    - image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 郭飙
 seo:
