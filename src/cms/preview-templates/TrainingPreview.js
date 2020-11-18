@@ -1,24 +1,25 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { TrainingTemplate } from '../../templates/training-post'
+import React from "react";
+import PropTypes from "prop-types";
+import { TrainingTemplate } from "../../templates/training-post";
 
 const TrainingPreview = ({ entry, widgetFor }) => {
-  const tags = entry.getIn(['data', 'tags'])
+  const tags = entry.getIn(["data", "tags"]);
   return (
     <TrainingTemplate
-      content={widgetFor('body')}
-      description={entry.getIn(['data', 'description'])}
+      content={widgetFor("body")}
+      description={entry.getIn(["data", "description"])}
       tags={tags && tags.toJS()}
-      title={entry.getIn(['data', 'title'])}
+      title={entry.getIn(["data", "title"])}
+      bodyIsMarkdown={true}
     />
-  )
-}
+  );
+};
 
 TrainingPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
-}
+};
 
-export default TrainingPreview
+export default TrainingPreview;

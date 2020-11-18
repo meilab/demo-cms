@@ -14,11 +14,12 @@ export const PastGamesPageTemplate = ({
   title,
   content,
   games = null,
-  bodyIsMarkdown = false,
+  bodyIsMarkdown = true,
 }) => {
   const emptyQuery = "";
   const [filteredData, setFilteredData] = useState([]);
   const [query, setQuery] = useState(emptyQuery);
+  console.log(content);
 
   useEffect(() => {
     setFilteredData(games);
@@ -123,7 +124,7 @@ const PastGamesPage = ({ data }) => {
       </Helmet>
       <PastGamesPageTemplate
         title={page.frontmatter.title}
-        content={page.html}
+        content={page.frontmatter.description}
         games={games}
       />
     </Layout>
@@ -142,6 +143,7 @@ export const pastGamesPageQuery = graphql`
       html
       frontmatter {
         title
+        description
         seo {
           browserTitle
           title

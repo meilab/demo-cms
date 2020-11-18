@@ -1,10 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import { Helmet } from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import { kebabCase } from "lodash";
+import { Helmet } from "react-helmet";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
+import ReactMarkdown from "react-markdown";
 
 export const TrainingTemplate = ({
   content,
@@ -13,12 +14,13 @@ export const TrainingTemplate = ({
   tags,
   title,
   helmet,
+  bodyIsMarkdown = false,
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
     <section className="section">
-      {helmet || ''}
+      {helmet || ""}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -26,10 +28,14 @@ export const TrainingTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <PostContent content={content} />
+            {bodyIsMarkdown ? (
+              <ReactMarkdown source={content} />
+            ) : (
+              <PostContent content={content} />
+            )}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
+                <h4>标签</h4>
                 <ul className="taglist">
                   {tags.map((tag) => (
                     <li key={tag + `tag`}>
@@ -43,8 +49,8 @@ export const TrainingTemplate = ({
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 TrainingTemplate.propTypes = {
   content: PropTypes.node.isRequired,
@@ -52,10 +58,10 @@ TrainingTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-}
+};
 
 const Training = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -76,16 +82,16 @@ const Training = ({ data }) => {
         title={post.frontmatter.title}
       />
     </Layout>
-  )
-}
+  );
+};
 
 Training.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
-}
+};
 
-export default Training
+export default Training;
 
 export const pageQuery = graphql`
   query TrainingByID($id: String!) {
@@ -100,4 +106,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
