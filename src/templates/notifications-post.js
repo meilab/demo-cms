@@ -12,6 +12,7 @@ export const NotificationsPostTemplate = ({
   contentComponent,
   description,
   tags,
+  attachments,
   title,
   helmet,
   bodyIsMarkdown = false,
@@ -40,6 +41,18 @@ export const NotificationsPostTemplate = ({
                   {tags.map((tag) => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+            {attachments && attachments.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h4>附件</h4>
+                <ul className="taglist">
+                  {attachments.map((item, index) => (
+                    <li key={index}>
+                      <a href={item.url}>{item.name}</a>
                     </li>
                   ))}
                 </ul>
@@ -79,6 +92,7 @@ const NotificationsPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
+        attachments={post.frontmatter.attachments}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -102,6 +116,10 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        attachments {
+          name
+          url
+        }
         tags
       }
     }
