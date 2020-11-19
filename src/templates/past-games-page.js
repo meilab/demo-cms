@@ -1,4 +1,4 @@
-import React, { Component, Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
@@ -19,7 +19,6 @@ export const PastGamesPageTemplate = ({
   const emptyQuery = "";
   const [filteredData, setFilteredData] = useState([]);
   const [query, setQuery] = useState(emptyQuery);
-  console.log(content);
 
   useEffect(() => {
     setFilteredData(games);

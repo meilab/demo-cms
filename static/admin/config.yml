@@ -129,8 +129,8 @@ collections:
               { label: "附件地址", name: "url", widget: "string" },
             ],
         }
-        - { label: "正文", name: "body", widget: "markdown" }
-        - { label: "标签", name: "tags", widget: "list" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "标签", name: "tags", widget: "list" }
 
   - name: "pages"
     label: "页面"

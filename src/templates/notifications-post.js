@@ -34,6 +34,18 @@ export const NotificationsPostTemplate = ({
             ) : (
               <PostContent content={content} />
             )}
+            {attachments && attachments.length ? (
+              <div style={{ marginTop: `2rem` }}>
+                <h4>附件:</h4>
+                <ul className="taglist">
+                  {attachments.map((item, index) => (
+                    <li key={index}>
+                      <a href={item.url}>{item.name}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>标签</h4>
@@ -41,18 +53,6 @@ export const NotificationsPostTemplate = ({
                   {tags.map((tag) => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-            {attachments && attachments.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>附件</h4>
-                <ul className="taglist">
-                  {attachments.map((item, index) => (
-                    <li key={index}>
-                      <a href={item.url}>{item.name}</a>
                     </li>
                   ))}
                 </ul>
