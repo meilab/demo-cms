@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               {/* <img src={logo} alt="Yoga" style={{ width: "88px" }} /> */}
-              陕西省健身瑜伽协会
+              首页
             </Link>
             {/* Hamburger menu */}
             <div
@@ -62,21 +62,30 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                协会介绍
+              <Link className="navbar-item" to="/news">
+                新闻资讯
               </Link>
               <Link className="navbar-item" to="/notifications">
                 公告通知
               </Link>
               <Link className="navbar-item" to="/pastGames">
-                赛事活动
+                竞赛工作
               </Link>
               {/* <Link className="navbar-item" to="/certificate"> */}
-              <Link className="navbar-item" to="/coming">
+              {/* <Link className="navbar-item" to="/coming">
                 证书查询
-              </Link>
+              </Link> */}
               <Link className="navbar-item" to="/culture">
                 瑜伽文化
+              </Link>
+              <Link className="navbar-item" to="/about">
+                协会介绍
+              </Link>
+              <Link className="navbar-item" to="/about">
+                会员机构
+              </Link>
+              <Link className="navbar-item" to="/about">
+                人才库
               </Link>
               <Link className="navbar-item" to="/coming">
                 下载专区
