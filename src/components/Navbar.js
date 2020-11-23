@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 // import logo from "../img/logo.svg";
-import logo from "../img/yoga-header-logo.jpeg";
+
+const logoUri = "http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -40,11 +41,11 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container" style={{ justifyContent: "space-between" }}>
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              {/* <img src={logo} alt="Yoga" style={{ width: "88px" }} /> */}
-              首页
+              <img src={logoUri} alt="Yoga" style={{ width: "88px" }} />
+              陕西省健身瑜伽协会
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,6 +60,7 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
+            style={{ flexGrow: 0 }}
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">

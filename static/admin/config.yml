@@ -125,7 +125,7 @@ collections:
           widget: "list",
           fields:
             [
-              { label: "标题", name: "name", widget: "string" },
+              { label: "附件名称", name: "name", widget: "string" },
               { label: "附件地址", name: "url", widget: "string" },
             ],
         }

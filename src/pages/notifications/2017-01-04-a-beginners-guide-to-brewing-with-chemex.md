@@ -9,7 +9,7 @@ tags:
   - 比赛
   - 座谈
 attachments:
-  - url: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/%E7%9C%81%E5%8D%8F%E4%BC%9A%E6%A0%87%E5%BF%97.jpg?Expires=1605755134&OSSAccessKeyId=TMP.3Kdak8FZ9zsusD4Zq6hcEP7F8EqgYkPLdmoRawmkMaJqEo6jh3svA27eeVLP9xqKsg6Dx9EkZzuTyKuJCwZF4oMAAfHRdP&Signature=oxzubusSlZMKp6Za8NLM4oUWkj4%3D&versionId=CAEQCBiBgMDJooLFpBciIDNiOTM2ZjQ3ZjdlNjQ3Zjk4OGRlMDNiMGQ2YTcyOWJj&response-content-type=application%2Foctet-stream
+  - url: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
     name: 附件1
 ---
 

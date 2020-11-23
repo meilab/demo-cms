@@ -28,11 +28,11 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
     upcomingGame && parseFloat(upcomingGame.location.mapsLongitude);
 
   let settings = {
-    dots: true,
-    arrows: true,
+    dots: false,
+    arrows: false,
     autoplay: true,
     infinite: true,
-    speed: 200,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -47,26 +47,14 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
   return (
     <>
       <section className="header">
-        <div
-          className="header-container container"
-          style={{
-            maxWidth: "100%",
-            backgroundSize: "cover",
-            backgroundPosition: "bottom",
-            backgroundImage: `url('http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg')`,
-          }}
-        >
-          {home.headerImage && (
-            <div
-              style={{ width: "300px", height: "auto" }}
-              className="upcomingGame-presenterImage"
-            >
-              <PreviewCompatibleImage imageInfo={home.headerImage} />
-            </div>
-          )}
-          <h3 className="header-tagline">
-            <span className="header-taglinePart">{home.title}</span>
-          </h3>
+        <div className="header-container">
+          <Slider {...settings} style={{ width: "100vw" }}>
+            {home.carousel.gallery.map((galleryImage, index) => (
+              <div key={index} className={`item-${index}`}>
+                <PreviewCompatibleImage imageInfo={galleryImage} />
+              </div>
+            ))}
+          </Slider>
         </div>
       </section>
       <section className="notificationsAndNews section ">
