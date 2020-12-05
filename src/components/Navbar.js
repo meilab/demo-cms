@@ -3,7 +3,8 @@ import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 // import logo from "../img/logo.svg";
 
-const logoUri = "http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg";
+const logoUri =
+  "https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/shanxishengjianshenyujiaxiehuibiaoshi.jpg?OSSAccessKeyId=TMP.3KhseE38K4gaSVM1MRVNhjY7N9uaGkJpmu6J2sTo7BBFiBPtmXFTQsdU82u8EQAVyVEYfSV8kwx6vmxn4TGjSppZACrhci&Signature=sS6beOguBF2atstqzuRyJS1gBhg%3D&versionId=CAEQDBiBgIDF35S1sRciIDY4ZTU5YjYzMTQxYTRkZGNiMDFmM2M2Y2U3MWIwM2Yy&response-content-type=application%2Foctet-stream";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -83,10 +84,10 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 协会介绍
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to="/coming">
                 会员机构
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to="/coming">
                 人才库
               </Link>
               <Link className="navbar-item" to="/coming">

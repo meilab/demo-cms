@@ -1,12 +1,15 @@
 @import "./variables.scss";
 @import "./mixins.scss";
 
+a:hover {
+  opacity: 0.5;
+}
 .header {
-  height: 450px;
+  // height: 450px;
   background-color: $background-medium;
 
   @include respond-to("medium") {
-    height: 575px;
+    // height: 575px;
   }
 
   &-container {
@@ -246,7 +249,10 @@
 
   &-title {
     @include large-font;
-    margin-bottom: 30px;
+    color: white;
+    height: 80px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
   }
 }
 

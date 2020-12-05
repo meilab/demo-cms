@@ -157,8 +157,33 @@ collections:
                 ],
             }
           - {
-              label: "轮播图",
-              name: "carousel",
+              label: "顶部轮播图",
+              name: "headerCarousel",
+              widget: "object",
+              fields:
+                [
+                  { label: "标题", name: "title", widget: "string" },
+                  {
+                    label: "图片展示",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "图片", name: "image", widget: "string" },
+                        {
+                          label: "图片说明",
+                          name: "imageAlt",
+                          widget: "string",
+                        },
+                        { label: "名称", name: "name", widget: "string" },
+                        { label: "链接地址", name: "url", widget: "string" },
+                      ],
+                  },
+                ],
+            }
+            - {
+              label: "中部轮播图",
+              name: "centerCarousel",
               widget: "object",
               fields:
                 [

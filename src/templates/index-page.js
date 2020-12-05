@@ -6,7 +6,6 @@ import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
 
 import Layout from "../components/Layout";
-// import Map from "../components/Map";
 import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
 import CustomLink from "../components/CustomLink";
 import "../styles/home.scss";
@@ -19,13 +18,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const HomePageTemplate = ({ home, upcomingGame = null }) => {
-  const [curTab, setCurTab] = useState("1");
+  // const [curTab, setCurTab] = useState("1");
 
-  const events = upcomingGame && upcomingGame.events;
-  const latitude =
-    upcomingGame && parseFloat(upcomingGame.location.mapsLatitude);
-  const longitude =
-    upcomingGame && parseFloat(upcomingGame.location.mapsLongitude);
+  // const events = upcomingGame && upcomingGame.events;
+  // const latitude =
+  //   upcomingGame && parseFloat(upcomingGame.location.mapsLatitude);
+  // const longitude =
+  //   upcomingGame && parseFloat(upcomingGame.location.mapsLongitude);
 
   let settings = {
     dots: false,
@@ -37,19 +36,51 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
     slidesToScroll: 1,
   };
 
-  const renderInfo = () => {
-    if (curTab === "1") {
-      return <NewsRoll />;
-    } else {
-      return <NotificationsRoll />;
-    }
-  };
+  const renderCard = (item) => (
+    <section className="notificationsAndNews section columns is-multiline">
+      {item &&
+        item.map((galleryImage, index) => (
+          <div className="is-parent column is-4" key={index}>
+            <Link
+              className="title has-text-primary is-size-4"
+              to={galleryImage.url}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "flex-end",
+                  witdh: "100%",
+                  height: 350,
+                  backgroundImage: `url('${galleryImage.image}')`,
+                  backgroundSize: "cover",
+                }}
+              >
+                {/* <PreviewCompatibleImage imageInfo={galleryImage}> */}
+                <p className="notificationsAndNews-title">
+                  {galleryImage.name}
+                </p>
+                {/* </PreviewCompatibleImage> */}
+              </div>
+            </Link>
+          </div>
+        ))}
+    </section>
+  );
+
+  // const renderInfo = () => {
+  //   if (curTab === "1") {
+  //     return <NewsRoll />;
+  //   } else {
+  //     return <NotificationsRoll />;
+  //   }
+  // };
   return (
     <>
       <section className="header">
         <div className="header-container">
           <Slider {...settings} style={{ width: "100vw" }}>
-            {home.carousel.gallery.map((galleryImage, index) => (
+            {home.headerCarousel.gallery.map((galleryImage, index) => (
               <div key={index} className={`item-${index}`}>
                 <PreviewCompatibleImage imageInfo={galleryImage} />
               </div>
@@ -57,13 +88,13 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
           </Slider>
         </div>
       </section>
-      <section className="notificationsAndNews section ">
+      {/* <section className="notificationsAndNews section ">
         <div className="container columns">
           <Slider
             {...settings}
             className="is-parent column is-7 notificationsAndNews-container container"
           >
-            {home.carousel.gallery.map((galleryImage, index) => (
+            {home.headerCarousel.gallery.map((galleryImage, index) => (
               <div key={index} className={`item-${index}`}>
                 <PreviewCompatibleImage imageInfo={galleryImage} />
               </div>
@@ -104,7 +135,7 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section className="upcomingGame  section">
         <div className="upcomingGame-container  container">
           <h2 className="upcomingGame-title">{home.upcomingGameHeading}</h2>
@@ -196,7 +227,35 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
           </div>
         </CustomLink>
       </section> */}
-      <section className="games section">
+      {renderCard(home.newsNotifications.gallery)}
+      {/* <section className="notificationsAndNews section columns is-multiline">
+        {home.newsNotifications.gallery &&
+          home.newsNotifications.gallery.map((galleryImage, index) => (
+            <div className="is-parent column is-4" key={index}>
+              <Link
+                className="title has-text-primary is-size-4"
+                to={galleryImage.url}
+              >
+                <article className="training-list-item tile is-child box notification">
+                  <div className="featured-thumbnail">
+                    <PreviewCompatibleImage imageInfo={galleryImage} />
+                  </div>
+                  <p className="post-meta">{galleryImage.name}</p>
+                </article>
+              </Link>
+            </div>
+          ))}
+      </section> */}
+      <section className="notificationsAndNews section">
+        <Slider {...settings} style={{ width: "100vw" }}>
+          {home.centerCarousel.gallery.map((galleryImage, index) => (
+            <div key={index} className={`item-${index}`}>
+              <PreviewCompatibleImage imageInfo={galleryImage} />
+            </div>
+          ))}
+        </Slider>
+      </section>
+      {/* <section className="games section">
         <div className="game-container columns container">
           <div className="column is-12">
             <h3 className="games-title has-text-weight-semibold is-size-2">
@@ -210,8 +269,8 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="trainings  section">
+      </section> */}
+      {/* <section className="trainings  section">
         <div className="training-container columns container">
           <div className="column is-12">
             <h3 className="trainings-title has-text-weight-semibold is-size-2">
@@ -225,8 +284,9 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="cooperation section">
+      </section> */}
+      {renderCard(home.educations.gallery)}
+      {/* <section className="cooperation section">
         <h2 className="cooperation-title">{home.cooperation.title}</h2>
         <div className="cooperation-container">
           <div className="cooperation-list">
@@ -237,7 +297,7 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
@@ -331,7 +391,34 @@ export const pageQuery = graphql`
               }
               imageAlt
             }
-            carousel {
+            headerCarousel {
+              title
+              gallery {
+                image
+                imageAlt
+                name
+                url
+              }
+            }
+            newsNotifications {
+              title
+              gallery {
+                image
+                imageAlt
+                name
+                url
+              }
+            }
+            centerCarousel {
+              title
+              gallery {
+                image
+                imageAlt
+                name
+                url
+              }
+            }
+            educations {
               title
               gallery {
                 image

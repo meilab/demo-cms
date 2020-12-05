@@ -2,7 +2,7 @@
 templateKey: coming-page
 title: 装修中，敬请期待
 mainImage:
-  image: http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg
+  image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/diyigundongtu1.jpeg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=irEYcR2AXQQhSbZeWOFZVZt9V9U%3D&versionId=CAEQDBiBgICkpum_sRciIDRiYjIwMTE4ZTI0OTRiZGFiYmFkMmYyNWU3M2RhZDA3&response-content-type=application%2Foctet-stream
   imageAlt: 瑜伽走起
 
 seo:
