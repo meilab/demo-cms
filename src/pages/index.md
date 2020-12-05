@@ -18,7 +18,7 @@ headerCarousel:
 newsNotifications:
   title: 新闻公告
   gallery:
-    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/toongzhigonggao.jpg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=RBCxa02%2BiVUBvOlumIoPyC%2FjyWo%3D&versionId=CAEQDBiBgMCHqJKisRciIGY1MzViNTdmMjI4NDRiYzZiZjI0OGViMzE2ZTFlY2Fk&response-content-type=application%2Foctet-stream
+    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/tongzhigonggao.jpg?OSSAccessKeyId=TMP.3KfbGYierAJyt6uw9EujCdsXVqGrYHqcuVJAC2KWp6zJ9hGWHeAd6XyAhBxcZ5FGtpki2dXt9wUVHVvkEr56wggjiD8va1&Signature=vV2bGiFxCy85T%2F%2F9Wb3Jb1%2BtwgE%3D&versionId=CAEQDBiBgIDSo4nVsRciIDkyMzliNTkyNWM4MDRmNzViZmU5MzIxMWQ1MGNiZDEz&response-content-type=application%2Foctet-stream
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 通知公告
       url: /notifications
@@ -26,7 +26,7 @@ newsNotifications:
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 行业资讯
       url: /news
-    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/huodongsaishi.jpg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=LhPwsCC%2BOZ2sdIYCeXngolCh35E%3D&versionId=CAEQDBiBgIDGo5KisRciIDFiZmRiNTAwYWZjNzRjYmI5NzhmY2UxYzQxZGY0ZWFl&response-content-type=application%2Foctet-stream
+    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/huodongsaishi.jpg?OSSAccessKeyId=TMP.3KfbGYierAJyt6uw9EujCdsXVqGrYHqcuVJAC2KWp6zJ9hGWHeAd6XyAhBxcZ5FGtpki2dXt9wUVHVvkEr56wggjiD8va1&Signature=LGeWDsfIkfUS83cGaV6b4P7GXCg%3D&versionId=CAEQDBiBgMDSo4nVsRciIDAzMzNmZGNkYjQ3NzRkMDc4Mjk1M2M4Yzg4M2U0OTQz&response-content-type=application%2Foctet-stream
       imageAlt: Wakanda developers working together at a table.
       name: 活动赛事
       url: /pastGames
