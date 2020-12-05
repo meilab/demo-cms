@@ -238,7 +238,7 @@ a:hover {
   color: $body-dark;
   @include medium-font;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   &-container {
     max-width: 1200px;

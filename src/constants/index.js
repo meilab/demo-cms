@@ -1,0 +1,2 @@
+export const backgroundImage =
+  "https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/diyigundongtu2.jpeg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=9jcTmmPQR4hm35Js6TuUs42iEmM%3D&versionId=CAEQDBiBgIDsp.m_sRciIGM1MjViNTMwZWQ1MDQ4MzZhYzM5ZGMzNmUwZWQxM2Zm&response-content-type=application%2Foctet-stream";

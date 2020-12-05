@@ -45,7 +45,11 @@ const Navbar = class extends React.Component {
         <div className="container" style={{ justifyContent: "space-between" }}>
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logoUri} alt="Yoga" style={{ width: "88px" }} />
+              <img
+                src={logoUri}
+                alt="Yoga"
+                style={{ width: 120, height: 120, maxHeight: 120 }}
+              />
               陕西省健身瑜伽协会
             </Link>
             {/* Hamburger menu */}

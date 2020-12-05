@@ -8,11 +8,11 @@ import Layout from "../components/Layout";
 import HTMLContent from "../components/Content";
 import "../styles/culture-page.scss";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { backgroundImage } from "../constants";
 
 export const CulturePageTemplate = (props) => {
   const { page } = props;
   // const str = page.frontmatter.mainImage.image;
-  const str = "http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg";
 
   return (
     <article className="culture-page">
@@ -20,7 +20,7 @@ export const CulturePageTemplate = (props) => {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url(${str})`,
+            backgroundImage: `url(${backgroundImage})`,
           }}
         >
           <h1

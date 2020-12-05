@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../../components/Layout";
 import NewsRoll from "../../components/NewsRoll";
-
+import { backgroundImage } from "../../constants";
 export default class TrainingIndexPage extends React.Component {
   render() {
     return (
@@ -10,7 +10,7 @@ export default class TrainingIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg')`,
+            backgroundImage: `url(${backgroundImage})`,
           }}
         >
           <h1

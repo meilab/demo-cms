@@ -8,6 +8,7 @@ import Layout from "../components/Layout";
 import HTMLContent from "../components/Content";
 import "../styles/about-page.scss";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { backgroundImage } from "../constants";
 
 export const AboutPageTemplate = (props) => {
   const { page } = props;
@@ -18,7 +19,7 @@ export const AboutPageTemplate = (props) => {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('http://xhimg.sports.cn/Image/200910/7-20091016250V35.jpg')`,
+            backgroundImage: `url(${backgroundImage})`,
           }}
         >
           <h1

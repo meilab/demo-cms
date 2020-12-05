@@ -37,35 +37,37 @@ export const HomePageTemplate = ({ home, upcomingGame = null }) => {
   };
 
   const renderCard = (item) => (
-    <section className="notificationsAndNews section columns is-multiline">
-      {item &&
-        item.map((galleryImage, index) => (
-          <div className="is-parent column is-4" key={index}>
-            <Link
-              className="title has-text-primary is-size-4"
-              to={galleryImage.url}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "flex-end",
-                  witdh: "100%",
-                  height: 350,
-                  backgroundImage: `url('${galleryImage.image}')`,
-                  backgroundSize: "cover",
-                }}
+    <div className="container">
+      <section className="notificationsAndNews section columns is-multiline">
+        {item &&
+          item.map((galleryImage, index) => (
+            <div className="is-parent column is-4" key={index}>
+              <Link
+                className="title has-text-primary is-size-4"
+                to={galleryImage.url}
               >
-                {/* <PreviewCompatibleImage imageInfo={galleryImage}> */}
-                <p className="notificationsAndNews-title">
-                  {galleryImage.name}
-                </p>
-                {/* </PreviewCompatibleImage> */}
-              </div>
-            </Link>
-          </div>
-        ))}
-    </section>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                    witdh: "100%",
+                    height: 350,
+                    backgroundImage: `url('${galleryImage.image}')`,
+                    backgroundSize: "cover",
+                  }}
+                >
+                  {/* <PreviewCompatibleImage imageInfo={galleryImage}> */}
+                  <p className="notificationsAndNews-title">
+                    {galleryImage.name}
+                  </p>
+                  {/* </PreviewCompatibleImage> */}
+                </div>
+              </Link>
+            </div>
+          ))}
+      </section>
+    </div>
   );
 
   // const renderInfo = () => {
