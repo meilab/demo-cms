@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 headerImage:
-  image: /img/logo.png
+  image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/diyigundongtu1.jpeg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=irEYcR2AXQQhSbZeWOFZVZt9V9U%3D&versionId=CAEQDBiBgICkpum_sRciIDRiYjIwMTE4ZTI0OTRiZGFiYmFkMmYyNWU3M2RhZDA3&response-content-type=application%2Foctet-stream
   imageAlt: JavaScript Wakanda
 title: 遇到更多的瑜伽爱好者共同切磋共同成长
 headerCarousel:
