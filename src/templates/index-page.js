@@ -383,16 +383,6 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            headerImage {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              imageAlt
-            }
             headerCarousel {
               title
               gallery {
