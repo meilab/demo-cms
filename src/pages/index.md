@@ -19,7 +19,7 @@ newsNotifications:
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 通知公告
       url: /notifications
-    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/hengyezixun.jpg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=e%2BQEmQSCPu7nSykjkMyOHpqH9wU%3D&versionId=CAEQDBiBgMCXoZKisRciIDY1OWEzODNlOTBiYTRjNmM4ODAxMmJlODkyNDkyNmEy&response-content-type=application%2Foctet-stream
+    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/hangyezixun.jpeg?OSSAccessKeyId=TMP.3Kh4kQjFuMAET7Nj7UNJgnPxzVAKb8rsuS22vAx3MCPN78m8vznLYZNhYMAZrFrcrYz1e4HjdpgZ39NefMPcpeZX6CWSzX&Signature=h4fFzuMf%2Bty%2FDetK%2BW0J1yx%2F288%3D&versionId=CAEQDBiBgICs76bpsRciIDVhOWNjYTVlYjljZTQ5MjRiOTJmOWM2ZTk0NmMxZDA3&response-content-type=application%2Foctet-stream
       imageAlt: Wakanda JavaScript developer presenting at a game.
       name: 行业资讯
       url: /news
