@@ -249,6 +249,8 @@ a:hover {
 
   &-title {
     @include large-font;
+    font-size: 21px;
+    font-weight: 700;
     color: white;
     height: 80px;
     text-align: center;
