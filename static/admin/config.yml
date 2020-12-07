@@ -181,7 +181,7 @@ collections:
                   },
                 ],
             }
-            - {
+          - {
               label: "中部轮播图",
               name: "centerCarousel",
               widget: "object",
