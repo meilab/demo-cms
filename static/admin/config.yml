@@ -119,16 +119,16 @@ collections:
       - { label: "说明", name: "description", widget: "text" }
       - { label: "重要公告", name: "featuredpost", widget: "boolean" }
       - { label: "图片", name: "featuredimage", widget: "string" }
-      - {
-          label: "附件",
-          name: "attachments",
-          widget: "list",
-          fields:
-            [
-              { label: "附件名称", name: "name", widget: "string" },
-              { label: "附件地址", name: "url", widget: "string" },
-            ],
-        }
+      # - {
+      #     label: "附件",
+      #     name: "attachments",
+      #     widget: "list",
+      #     fields:
+      #       [
+      #         { label: "附件名称", name: "name", widget: "string" },
+      #         { label: "附件地址", name: "url", widget: "string" },
+      #       ],
+      #   }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "标签", name: "tags", widget: "list" }
 
