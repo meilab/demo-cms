@@ -30,9 +30,9 @@ newsNotifications:
 educations:
   title: 教育
   gallery:
-    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/huiyuandanwei.png?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=yO50tph%2BPxYCCsMSHOErqUV1sY8%3D&versionId=CAEQDBiBgMCPpJKisRciIDYzZDg2NjdmN2E2NTQ2MDViZjE4ZDY5ZDRlNWU4YzJh&response-content-type=application%2Foctet-stream
-      imageAlt: Wakanda JavaScript developer presenting at a game.
-      name: 会员单位
+    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/kaoshibaoming.jpg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=9or%2B6E5BewHO8%2FdikE6fzLo9rGQ%3D&versionId=CAEQDBiBgIC4pJKisRciIGFhMzQwYmQzNDViYjRhMTRiNGJhNjBmYTRlN2M1ZjA1&response-content-type=application%2Foctet-stream
+      imageAlt: Wakanda developers working together at a table.
+      name: 考试报名
       url: /coming
     - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/zhengshuchaxun.jpg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=7USt23ezXMY1veei1c2hvxKzdzQ%3D&versionId=CAEQDBiBgID2qJKisRciIDIwNTc3N2ZkZjAwMjRjYzM4YjUzZDQxZmYzNTQ1OTkx&response-content-type=application%2Foctet-stream
       imageAlt: Wakanda JavaScript developer presenting at a game.
@@ -46,9 +46,9 @@ educations:
       imageAlt: Wakanda developers working together at a table.
       name: 战略合作
       url: /coming
-    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/kaoshibaoming.jpg?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=9or%2B6E5BewHO8%2FdikE6fzLo9rGQ%3D&versionId=CAEQDBiBgIC4pJKisRciIGFhMzQwYmQzNDViYjRhMTRiNGJhNjBmYTRlN2M1ZjA1&response-content-type=application%2Foctet-stream
-      imageAlt: Wakanda developers working together at a table.
-      name: 考试报名
+    - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/huiyuandanwei.png?OSSAccessKeyId=TMP.3KkK8Ksark868gMQitRdR3oBxAHRhNQFmYzPvacLjVWDL2jsw6XNkKueJiho4YZd5YYLXrf6sNPn5rUsxkMjz1azWc15ow&Signature=yO50tph%2BPxYCCsMSHOErqUV1sY8%3D&versionId=CAEQDBiBgMCPpJKisRciIDYzZDg2NjdmN2E2NTQ2MDViZjE4ZDY5ZDRlNWU4YzJh&response-content-type=application%2Foctet-stream
+      imageAlt: Wakanda JavaScript developer presenting at a game.
+      name: 会员单位
       url: /coming
 centerCarousel:
   title: 重要事件

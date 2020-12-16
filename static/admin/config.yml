@@ -12,75 +12,75 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "games"
-    label: "比赛"
-    folder: "src/pages/games"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "past-game",
-        }
-      - { label: "标题", name: "title", widget: "string" }
-      # - {
-      #     label: "Manual PDF",
-      #     name: "pdf",
-      #     widget: "file",
-      #     default: "/uploads/general-manual.pdf",
-      #     media_library: { config: { multiple: true } },
-      #   }
-      - { label: "发布日期", name: "date", widget: "datetime" }
-      - { label: "说明", name: "description", widget: "text" }
-      # - {
-      #     label: "项目",
-      #     name: "events",
-      #     widget: "list",
-      #     fields:
-      #       [
-      #         { label: "图片", name: "image", widget: "image" },
-      #         { label: "链接", name: "links",  widget: "object",
-      #           fields:
-      #             [
-      #               { label: "链接名称", name: "linkText", widget: "string" },
-      #               { label: "链接地址", name: "linkURL", widget: "string" },
-      #             ]
-      #         },
-      #         { label: "项目名称", name: "name", widget: "string" },
-      #         {
-      #           label: "项目简介",
-      #           name: "eventDescription",
-      #           widget: "string",
-      #         },
-      #         { label: "详细描述", name: "text", widget: "string" },
-      #       ],
-      #   },
-      - { label: "重要比赛", name: "featuredpost", widget: "boolean" }
-      - { label: "图片", name: "featuredimage", widget: string }
-      - { label: "正文", name: "body", widget: "markdown" }
-      - { label: "标签", name: "tags", widget: "list" }
+  # - name: "games"
+  #   label: "比赛"
+  #   folder: "src/pages/games"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #   fields:
+  #     - {
+  #         label: "Template Key",
+  #         name: "templateKey",
+  #         widget: "hidden",
+  #         default: "past-game",
+  #       }
+  #     - { label: "标题", name: "title", widget: "string" }
+  #     # - {
+  #     #     label: "Manual PDF",
+  #     #     name: "pdf",
+  #     #     widget: "file",
+  #     #     default: "/uploads/general-manual.pdf",
+  #     #     media_library: { config: { multiple: true } },
+  #     #   }
+  #     - { label: "发布日期", name: "date", widget: "datetime" }
+  #     - { label: "说明", name: "description", widget: "text" }
+  #     # - {
+  #     #     label: "项目",
+  #     #     name: "events",
+  #     #     widget: "list",
+  #     #     fields:
+  #     #       [
+  #     #         { label: "图片", name: "image", widget: "image" },
+  #     #         { label: "链接", name: "links",  widget: "object",
+  #     #           fields:
+  #     #             [
+  #     #               { label: "链接名称", name: "linkText", widget: "string" },
+  #     #               { label: "链接地址", name: "linkURL", widget: "string" },
+  #     #             ]
+  #     #         },
+  #     #         { label: "项目名称", name: "name", widget: "string" },
+  #     #         {
+  #     #           label: "项目简介",
+  #     #           name: "eventDescription",
+  #     #           widget: "string",
+  #     #         },
+  #     #         { label: "详细描述", name: "text", widget: "string" },
+  #     #       ],
+  #     #   },
+  #     - { label: "重要比赛", name: "featuredpost", widget: "boolean" }
+  #     - { label: "图片", name: "featuredimage", widget: string }
+  #     - { label: "正文", name: "body", widget: "markdown" }
+  #     - { label: "标签", name: "tags", widget: "list" }
 
-  - name: "training"
-    label: "培训认证"
-    folder: "src/pages/training"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "training-post",
-        }
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "发布日期", name: "date", widget: "datetime" }
-      - { label: "说明", name: "description", widget: "text" }
-      - { label: "重要培训", name: "featuredpost", widget: "boolean" }
-      - { label: "图片", name: "featuredimage", widget: "string" }
-      - { label: "正文", name: "body", widget: "markdown" }
-      - { label: "标签", name: "tags", widget: "list" }
+  # - name: "training"
+  #   label: "培训认证"
+  #   folder: "src/pages/training"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #   fields:
+  #     - {
+  #         label: "Template Key",
+  #         name: "templateKey",
+  #         widget: "hidden",
+  #         default: "training-post",
+  #       }
+  #     - { label: "标题", name: "title", widget: "string" }
+  #     - { label: "发布日期", name: "date", widget: "datetime" }
+  #     - { label: "说明", name: "description", widget: "text" }
+  #     - { label: "重要培训", name: "featuredpost", widget: "boolean" }
+  #     - { label: "图片", name: "featuredimage", widget: "string" }
+  #     - { label: "正文", name: "body", widget: "markdown" }
+  #     - { label: "标签", name: "tags", widget: "list" }
 
   - name: "news"
     label: "资讯管理"
