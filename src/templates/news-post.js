@@ -12,6 +12,7 @@ export const NewsPostTemplate = ({
   contentComponent,
   description,
   tags,
+  attachments,
   title,
   helmet,
   bodyIsMarkdown = false,
@@ -33,6 +34,18 @@ export const NewsPostTemplate = ({
             ) : (
               <PostContent content={content} />
             )}
+            {attachments && attachments.length ? (
+              <div style={{ marginTop: `2rem` }}>
+                <h4>附件:</h4>
+                <ul className="taglist">
+                  {attachments.map((item, index) => (
+                    <li key={index}>
+                      <a href={item.url}>{item.name}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>标签</h4>
@@ -67,7 +80,7 @@ const NewsPost = ({ data }) => {
     <Layout>
       <NewsPostTemplate
         content={post.html}
-        contentComponent={ReactMarkdown}
+        contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Training">
@@ -78,6 +91,7 @@ const NewsPost = ({ data }) => {
             />
           </Helmet>
         }
+        attachments={post.frontmatter.attachments}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
