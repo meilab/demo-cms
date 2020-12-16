@@ -75,9 +75,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/notifications">
                 公告通知
               </Link>
-              <Link className="navbar-item" to="/pastGames">
+              {/* <Link className="navbar-item" to="/pastGames">
                 竞赛工作
-              </Link>
+              </Link> */}
               {/* <Link className="navbar-item" to="/certificate"> */}
               {/* <Link className="navbar-item" to="/coming">
                 证书查询

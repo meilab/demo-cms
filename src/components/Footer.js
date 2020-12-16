@@ -37,11 +37,11 @@ const Footer = class extends React.Component {
                         公告通知
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="navbar-item" to="/pastGames">
                         赛事活动
                       </Link>
-                    </li>
+                    </li> */}
                     {/* <Link className="navbar-item" to="/culture"> */}
                     <Link className="navbar-item" to="/coming">
                       瑜伽文化

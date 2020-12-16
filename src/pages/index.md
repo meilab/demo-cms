@@ -26,7 +26,7 @@ newsNotifications:
     - image: https://sxsjsyjxh.oss-cn-beijing.aliyuncs.com/huodongsaishi.jpg?OSSAccessKeyId=TMP.3KfbGYierAJyt6uw9EujCdsXVqGrYHqcuVJAC2KWp6zJ9hGWHeAd6XyAhBxcZ5FGtpki2dXt9wUVHVvkEr56wggjiD8va1&Signature=LGeWDsfIkfUS83cGaV6b4P7GXCg%3D&versionId=CAEQDBiBgMDSo4nVsRciIDAzMzNmZGNkYjQ3NzRkMDc4Mjk1M2M4Yzg4M2U0OTQz&response-content-type=application%2Foctet-stream
       imageAlt: Wakanda developers working together at a table.
       name: 活动赛事
-      url: /pastGames
+      url: /coming
 educations:
   title: 教育
   gallery:
