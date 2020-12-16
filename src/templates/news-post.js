@@ -60,7 +60,7 @@ NewsPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const NotificationsPost = ({ data }) => {
+const NewsPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
@@ -85,13 +85,13 @@ const NotificationsPost = ({ data }) => {
   );
 };
 
-NotificationsPost.propTypes = {
+NewsPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default NotificationsPost;
+export default NewsPost;
 
 export const pageQuery = graphql`
   query NewsPostByID($id: String!) {
